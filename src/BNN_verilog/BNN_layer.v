@@ -1,6 +1,6 @@
 /*
     BNN Layer
-    Build using BNN neurons
+    Implemented using BNN neurons
 */
 `include "BNN_neuron.v"
 
