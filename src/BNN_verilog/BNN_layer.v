@@ -6,7 +6,7 @@
 
 module BNN_Layer #(
     parameter IMG_WIDTH = 30,       // 28x28 image, padding=1
-    parameter KERNEL_LEN = 3       // 3x3 kenel
+    parameter KERNEL_LEN = 3        // 3x3 kenel
 )(
     input wire [IMG_IN_SIZE-1:0] img_buf,
     input wire [KERNEL_SIZE-1:0] kernel_buf,
