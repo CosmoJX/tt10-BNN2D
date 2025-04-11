@@ -1,9 +1,10 @@
+`include "mlp_neuron.sv"
 // MLP_Layer: A fully connected binary layer (MLP layer)
 // Parameters:
 //   INPUT_SIZE    : Number of binary inputs (e.g., 784 for a flattened 28x28 image).
 //   NUM_NEURONS   : Number of neurons (output size).
 //   THRESHOLD_WIDTH: Bit width required to represent thresholds (typically $clog2(INPUT_SIZE+1)).
-module MLP_Layer #(
+module MLP_layer #(
     parameter int INPUT_SIZE = 784,
     parameter int NUM_NEURONS = 10,
     parameter int THRESHOLD_WIDTH = $clog2(INPUT_SIZE+1)
