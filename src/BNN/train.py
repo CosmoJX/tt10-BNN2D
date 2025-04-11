@@ -1,4 +1,4 @@
-import bnn
+import bnn_IOBinary as bnn
 from dataloader import Dataloader
 from trainer import Trainer
 import torch
@@ -20,7 +20,7 @@ criterion = nn.CrossEntropyLoss()
 optimizer = optim.SGD(model.parameters(), lr=0.01, momentum=0.9)
 
 
-num_epochs = 10
+num_epochs = 20
 
 
 for epoch in range(num_epochs):
@@ -104,3 +104,89 @@ test_acc = 100. * correct_test / total_test
 
 print("="*20)
 print(f"Test Loss: {test_loss:.3f}, Test Acc: {test_acc:.2f}%")
+
+# save weights
+torch.save(model.state_dict(), "bnn_weights2.pth")
+
+
+# Custom binarization function with STE.
+class Binarize(torch.autograd.Function):
+    @staticmethod
+    def forward(ctx, input):
+        # Save input for use in the backward pass.
+        ctx.save_for_backward(input)
+        # Binarize activations: map positive to +1 and negative to -1.
+        return input.sign()
+
+    @staticmethod
+    def backward(ctx, grad_output):
+        input, = ctx.saved_tensors
+        # Use the straight-through estimator (STE) by approximating the gradient:
+        grad_input = grad_output.clone()
+        # Optionally, you can clip the gradient for |input| > 1 (or use other schemes).
+        grad_input[input.abs() > 1] = 0
+        return grad_input
+
+# write weights to file
+torch.set_printoptions(threshold=20_000)
+bnn1_weight = Binarize.apply(model.conv1.conv.weight).reshape(-1)
+bnn2_weight = Binarize.apply(model.conv2.conv.weight).reshape(-1)
+mlp1_weight = Binarize.apply(model.fc1.weight).reshape(-1)
+mlp2_weight = Binarize.apply(model.fc2.weight).reshape(-1)
+bn1_weight = model.bn1.weight.reshape(-1)
+bn1_bias = model.bn1.bias.reshape(-1)
+bn2_weight = model.bn2.weight.reshape(-1)
+bn2_bias = model.bn2.bias.reshape(-1)
+bn3_weight = model.bn3.weight.reshape(-1)
+bn3_bias = model.bn3.bias.reshape(-1)
+bn1_offset = []
+for i in range(bn1_weight.size(dim=0)):
+    bn1_offset.append((-bn1_bias[i]/bn1_weight[i]).item())
+bn2_offset = []
+for i in range(bn2_weight.size(dim=0)):
+    bn2_offset.append((-bn2_bias[i]/bn2_weight[i]).item())
+bn3_offset = []
+for i in range(bn3_weight.size(dim=0)):
+    bn3_offset.append((-bn3_bias[i]/bn3_weight[i]).item())
+
+weight_lst = [bnn1_weight, bnn2_weight, mlp1_weight, mlp2_weight]
+plst = []
+for weight in weight_lst:
+    lst = []
+    for i in range(weight.size(dim=0)):
+        lst.append('0' if weight[i] == -1 else '1')
+    
+    plst.append(''.join(lst))
+
+with open("BNN weights.txt", "w") as file:
+    print("bnn1_weight", file=file)
+    print(f"shape is: {bnn1_weight.shape}", file=file)
+    # print(bnn1_weight, file=file)
+    print(plst[0], file=file)
+
+    print("bnn2_weight", file=file)
+    print(f"shape is: {bnn2_weight.shape}", file=file)
+    #print(bnn2_weight, file=file)
+    print(plst[1], file=file)
+
+    print("mlp1_weight", file=file)
+    print(f"shape is: {mlp1_weight.shape}", file=file)
+    #print(mlp1_weight, file=file)
+    print(plst[2], file=file)
+
+    print("mlp2_weight", file=file)
+    print(f"shape is: {mlp2_weight.shape}", file=file)
+    #print(mlp2_weight, file=file)
+    print(plst[3], file=file)
+
+    print("bn1_offset", file=file)
+    print(f"shape is: {len(bn1_offset)}", file=file)
+    print(bn1_offset, file=file)
+
+    print("bn2_offset", file=file)
+    print(f"shape is: {len(bn2_offset)}", file=file)
+    print(bn2_offset, file=file)
+
+    print("bn3_offset", file=file)
+    print(f"shape is: {len(bn3_offset)}", file=file)
+    print(bn3_offset, file=file)

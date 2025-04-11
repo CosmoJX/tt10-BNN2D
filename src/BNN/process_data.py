@@ -21,6 +21,9 @@ for i in range(10):
         # append tensor to list
         tensors.append(norm_image)
 
+        print(norm_image)
+        exit()
+
 
 # stack tensors into one tensor
 data = torch.stack(tuple(tensors))
@@ -31,8 +34,10 @@ for i in range(10):
     label.extend([i]*images_per_digit)
 label = torch.tensor(label)
 
+'''
 # save data to file
 file_path = os.path.join(output_root, "h5_dataset")
 with h5py.File(file_path, "w") as f:
     f.create_dataset("data", data=data.numpy(), compression="gzip")
     f.create_dataset("label", data=label.numpy(), compression="gzip")
+'''

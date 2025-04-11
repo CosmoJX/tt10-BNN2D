@@ -5,9 +5,9 @@ import math
 
 BNN_Layer1_Padding = 1
 BNN_Layer2_Padding = 0
-BNN_Layer1_OutputChannel = 8
-BNN_Layer2_OutputChannel = 16
-MLP_OutputChannel = 32
+BNN_Layer1_OutputChannel = 16
+BNN_Layer2_OutputChannel = 32
+MLP_OutputChannel = 64
 Output_Image_Size = 5+BNN_Layer1_Padding+BNN_Layer2_Padding
 
 # Custom binarization function with STE.
@@ -89,10 +89,10 @@ class BNN_ImageRecognition(nn.Module):
     
     def forward(self, x):
         # Optionally binarize activations too; here we use HardTanh as an approximation
-        x = self.pool(F.hardtanh(self.bn1(self.conv1(x))))
-        x = self.pool(F.hardtanh(self.bn2(self.conv2(x))))
+        x = self.pool(Binarize.apply(F.hardtanh(self.bn1(self.conv1(x)))))
+        x = self.pool(Binarize.apply(F.hardtanh(self.bn2(self.conv2(x)))))
         x = x.view(x.size(0), -1)
-        x = F.hardtanh(self.bn3(self.fc1(x)))
+        x = Binarize.apply(F.hardtanh(self.bn3(self.fc1(x))))
         x = self.fc2(x)
         # For classification, you can return logits directly (to be used with CrossEntropyLoss)
         return x

@@ -91,9 +91,10 @@ def main():
     train_loader = data.train_dataloader()
     val_loader = data.val_dataloader()
     test_loader = data.test_dataloader()
-    X, y = next(iter(train_loader))
-    print("X shape", X.shape)
-    print("y shape", y.shape)
+    X, y = next(iter(test_loader))
+    torch.set_printoptions(threshold=200_000)
+    print(X[0])
+    print(y[0])
     
 if __name__ == "__main__":
     main()
