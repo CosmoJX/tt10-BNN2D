@@ -10,7 +10,7 @@ module FC#(
     parameter int IC = 288,
     parameter int OC = 10
 )(
-    input logic [IC-1:0] img_in,
+    input logic [IC-1:0] in,
     input logic signed [15:0] weights [0:IC*OC-1],
     output logic signed [15:0] out [0:OC-1]
 );
@@ -22,7 +22,7 @@ module FC#(
             always_comb begin
                 temp_out = 0;
                 for (int i=0; i<IC; i=i+1) begin
-                    temp_out = temp_out + ((img_in[i])?weights[oc*IC+i]:-weights[oc*IC+i]);
+                    temp_out = temp_out + ((in[i])?weights[oc*IC+i]:-weights[oc*IC+i]);
                 end
             end
             assign out[oc] = temp_out;

@@ -6,53 +6,6 @@
 #include "Vdut__Syms.h"
 #include "Vdut___024root.h"
 
-VL_ATTR_COLD void Vdut___024root___stl_sequent__TOP__2(Vdut___024root* vlSelf) {
-    if (false && vlSelf) {}  // Prevent unused
-    Vdut__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vdut___024root___stl_sequent__TOP__2\n"); );
-    // Body
-    vlSelf->dut__DOT__conv2_img_out[0U][0U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__0__KET____DOT__core.img_out[0U];
-    vlSelf->dut__DOT__conv2_img_out[0U][1U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__0__KET____DOT__core.img_out[1U];
-    vlSelf->dut__DOT__conv2_img_out[0U][2U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__0__KET____DOT__core.img_out[2U];
-    vlSelf->dut__DOT__conv2_img_out[0U][3U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__0__KET____DOT__core.img_out[3U];
-    vlSelf->dut__DOT__conv2_img_out[0U][4U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__0__KET____DOT__core.img_out[4U];
-    vlSelf->dut__DOT__conv2_img_out[1U][0U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__1__KET____DOT__core.img_out[0U];
-    vlSelf->dut__DOT__conv2_img_out[1U][1U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__1__KET____DOT__core.img_out[1U];
-    vlSelf->dut__DOT__conv2_img_out[1U][2U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__1__KET____DOT__core.img_out[2U];
-    vlSelf->dut__DOT__conv2_img_out[1U][3U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__1__KET____DOT__core.img_out[3U];
-    vlSelf->dut__DOT__conv2_img_out[1U][4U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__1__KET____DOT__core.img_out[4U];
-    vlSelf->dut__DOT__conv2_img_out[2U][0U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__2__KET____DOT__core.img_out[0U];
-    vlSelf->dut__DOT__conv2_img_out[2U][1U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__2__KET____DOT__core.img_out[1U];
-    vlSelf->dut__DOT__conv2_img_out[2U][2U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__2__KET____DOT__core.img_out[2U];
-    vlSelf->dut__DOT__conv2_img_out[2U][3U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__2__KET____DOT__core.img_out[3U];
-    vlSelf->dut__DOT__conv2_img_out[2U][4U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__2__KET____DOT__core.img_out[4U];
-    vlSelf->dut__DOT__conv2_img_out[3U][0U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__3__KET____DOT__core.img_out[0U];
-    vlSelf->dut__DOT__conv2_img_out[3U][1U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__3__KET____DOT__core.img_out[1U];
-    vlSelf->dut__DOT__conv2_img_out[3U][2U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__3__KET____DOT__core.img_out[2U];
-    vlSelf->dut__DOT__conv2_img_out[3U][3U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__3__KET____DOT__core.img_out[3U];
-    vlSelf->dut__DOT__conv2_img_out[3U][4U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__3__KET____DOT__core.img_out[4U];
-    vlSelf->dut__DOT__conv2_img_out[4U][0U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__4__KET____DOT__core.img_out[0U];
-    vlSelf->dut__DOT__conv2_img_out[4U][1U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__4__KET____DOT__core.img_out[1U];
-    vlSelf->dut__DOT__conv2_img_out[4U][2U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__4__KET____DOT__core.img_out[2U];
-    vlSelf->dut__DOT__conv2_img_out[4U][3U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__4__KET____DOT__core.img_out[3U];
-    vlSelf->dut__DOT__conv2_img_out[4U][4U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__4__KET____DOT__core.img_out[4U];
-    vlSelf->dut__DOT__conv2_img_out[5U][0U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__5__KET____DOT__core.img_out[0U];
-    vlSelf->dut__DOT__conv2_img_out[5U][1U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__5__KET____DOT__core.img_out[1U];
-    vlSelf->dut__DOT__conv2_img_out[5U][2U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__5__KET____DOT__core.img_out[2U];
-    vlSelf->dut__DOT__conv2_img_out[5U][3U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__5__KET____DOT__core.img_out[3U];
-    vlSelf->dut__DOT__conv2_img_out[5U][4U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__5__KET____DOT__core.img_out[4U];
-    vlSelf->dut__DOT__conv2_img_out[6U][0U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__6__KET____DOT__core.img_out[0U];
-    vlSelf->dut__DOT__conv2_img_out[6U][1U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__6__KET____DOT__core.img_out[1U];
-    vlSelf->dut__DOT__conv2_img_out[6U][2U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__6__KET____DOT__core.img_out[2U];
-    vlSelf->dut__DOT__conv2_img_out[6U][3U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__6__KET____DOT__core.img_out[3U];
-    vlSelf->dut__DOT__conv2_img_out[6U][4U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__6__KET____DOT__core.img_out[4U];
-    vlSelf->dut__DOT__conv2_img_out[7U][0U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__7__KET____DOT__core.img_out[0U];
-    vlSelf->dut__DOT__conv2_img_out[7U][1U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__7__KET____DOT__core.img_out[1U];
-    vlSelf->dut__DOT__conv2_img_out[7U][2U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__7__KET____DOT__core.img_out[2U];
-    vlSelf->dut__DOT__conv2_img_out[7U][3U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__7__KET____DOT__core.img_out[3U];
-    vlSelf->dut__DOT__conv2_img_out[7U][4U] = vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__7__KET____DOT__core.img_out[4U];
-}
-
 VL_ATTR_COLD void Vdut___024root___stl_sequent__TOP__0(Vdut___024root* vlSelf);
 VL_ATTR_COLD void Vdut_ConvCore__I1___stl_sequent__TOP__dut__DOT__conv1__DOT__conv_core_gen__BRA__0__KET____DOT__core__0(Vdut_ConvCore__I1* vlSelf);
 VL_ATTR_COLD void Vdut_ConvCore__I1___stl_sequent__TOP__dut__DOT__conv1__DOT__conv_core_gen__BRA__0__KET____DOT__core__1(Vdut_ConvCore__I1* vlSelf);
@@ -135,6 +88,17 @@ VL_ATTR_COLD void Vdut_ConvCore__I1___stl_sequent__TOP__dut__DOT__conv1__DOT__co
 VL_ATTR_COLD void Vdut_ConvCore__I1___stl_sequent__TOP__dut__DOT__conv1__DOT__conv_core_gen__BRA__9__KET____DOT__core__6(Vdut_ConvCore__I1* vlSelf);
 VL_ATTR_COLD void Vdut_ConvCore__I1___stl_sequent__TOP__dut__DOT__conv1__DOT__conv_core_gen__BRA__9__KET____DOT__core__7(Vdut_ConvCore__I1* vlSelf);
 VL_ATTR_COLD void Vdut___024root___stl_sequent__TOP__1(Vdut___024root* vlSelf);
+VL_ATTR_COLD void Vdut_MaxPoolCore__I1c___stl_sequent__TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__0__KET____DOT__maxpool__0(Vdut_MaxPoolCore__I1c* vlSelf);
+VL_ATTR_COLD void Vdut_MaxPoolCore__I1c___stl_sequent__TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__1__KET____DOT__maxpool__0(Vdut_MaxPoolCore__I1c* vlSelf);
+VL_ATTR_COLD void Vdut_MaxPoolCore__I1c___stl_sequent__TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__2__KET____DOT__maxpool__0(Vdut_MaxPoolCore__I1c* vlSelf);
+VL_ATTR_COLD void Vdut_MaxPoolCore__I1c___stl_sequent__TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__3__KET____DOT__maxpool__0(Vdut_MaxPoolCore__I1c* vlSelf);
+VL_ATTR_COLD void Vdut_MaxPoolCore__I1c___stl_sequent__TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__4__KET____DOT__maxpool__0(Vdut_MaxPoolCore__I1c* vlSelf);
+VL_ATTR_COLD void Vdut_MaxPoolCore__I1c___stl_sequent__TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__5__KET____DOT__maxpool__0(Vdut_MaxPoolCore__I1c* vlSelf);
+VL_ATTR_COLD void Vdut_MaxPoolCore__I1c___stl_sequent__TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__6__KET____DOT__maxpool__0(Vdut_MaxPoolCore__I1c* vlSelf);
+VL_ATTR_COLD void Vdut_MaxPoolCore__I1c___stl_sequent__TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__7__KET____DOT__maxpool__0(Vdut_MaxPoolCore__I1c* vlSelf);
+VL_ATTR_COLD void Vdut_MaxPoolCore__I1c___stl_sequent__TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__8__KET____DOT__maxpool__0(Vdut_MaxPoolCore__I1c* vlSelf);
+VL_ATTR_COLD void Vdut_MaxPoolCore__I1c___stl_sequent__TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__9__KET____DOT__maxpool__0(Vdut_MaxPoolCore__I1c* vlSelf);
+VL_ATTR_COLD void Vdut___024root___stl_sequent__TOP__2(Vdut___024root* vlSelf);
 VL_ATTR_COLD void Vdut_ConvCore__Ia_IBe___stl_sequent__TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__0__KET____DOT__core__0(Vdut_ConvCore__Ia_IBe* vlSelf);
 VL_ATTR_COLD void Vdut_ConvCore__Ia_IBe___stl_sequent__TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__0__KET____DOT__core__1(Vdut_ConvCore__Ia_IBe* vlSelf);
 VL_ATTR_COLD void Vdut_ConvCore__Ia_IBe___stl_sequent__TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__1__KET____DOT__core__1(Vdut_ConvCore__Ia_IBe* vlSelf);
@@ -144,6 +108,7 @@ VL_ATTR_COLD void Vdut_ConvCore__Ia_IBe___stl_sequent__TOP__dut__DOT__conv2__DOT
 VL_ATTR_COLD void Vdut_ConvCore__Ia_IBe___stl_sequent__TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__5__KET____DOT__core__1(Vdut_ConvCore__Ia_IBe* vlSelf);
 VL_ATTR_COLD void Vdut_ConvCore__Ia_IBe___stl_sequent__TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__6__KET____DOT__core__1(Vdut_ConvCore__Ia_IBe* vlSelf);
 VL_ATTR_COLD void Vdut_ConvCore__Ia_IBe___stl_sequent__TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__7__KET____DOT__core__1(Vdut_ConvCore__Ia_IBe* vlSelf);
+VL_ATTR_COLD void Vdut___024root___stl_sequent__TOP__3(Vdut___024root* vlSelf);
 
 VL_ATTR_COLD void Vdut___024root___eval_stl(Vdut___024root* vlSelf) {
     if (false && vlSelf) {}  // Prevent unused
@@ -234,6 +199,17 @@ VL_ATTR_COLD void Vdut___024root___eval_stl(Vdut___024root* vlSelf) {
         Vdut_ConvCore__I1___stl_sequent__TOP__dut__DOT__conv1__DOT__conv_core_gen__BRA__9__KET____DOT__core__6((&vlSymsp->TOP__dut__DOT__conv1__DOT__conv_core_gen__BRA__9__KET____DOT__core));
         Vdut_ConvCore__I1___stl_sequent__TOP__dut__DOT__conv1__DOT__conv_core_gen__BRA__9__KET____DOT__core__7((&vlSymsp->TOP__dut__DOT__conv1__DOT__conv_core_gen__BRA__9__KET____DOT__core));
         Vdut___024root___stl_sequent__TOP__1(vlSelf);
+        Vdut_MaxPoolCore__I1c___stl_sequent__TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__0__KET____DOT__maxpool__0((&vlSymsp->TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__0__KET____DOT__maxpool));
+        Vdut_MaxPoolCore__I1c___stl_sequent__TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__1__KET____DOT__maxpool__0((&vlSymsp->TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__1__KET____DOT__maxpool));
+        Vdut_MaxPoolCore__I1c___stl_sequent__TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__2__KET____DOT__maxpool__0((&vlSymsp->TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__2__KET____DOT__maxpool));
+        Vdut_MaxPoolCore__I1c___stl_sequent__TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__3__KET____DOT__maxpool__0((&vlSymsp->TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__3__KET____DOT__maxpool));
+        Vdut_MaxPoolCore__I1c___stl_sequent__TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__4__KET____DOT__maxpool__0((&vlSymsp->TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__4__KET____DOT__maxpool));
+        Vdut_MaxPoolCore__I1c___stl_sequent__TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__5__KET____DOT__maxpool__0((&vlSymsp->TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__5__KET____DOT__maxpool));
+        Vdut_MaxPoolCore__I1c___stl_sequent__TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__6__KET____DOT__maxpool__0((&vlSymsp->TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__6__KET____DOT__maxpool));
+        Vdut_MaxPoolCore__I1c___stl_sequent__TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__7__KET____DOT__maxpool__0((&vlSymsp->TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__7__KET____DOT__maxpool));
+        Vdut_MaxPoolCore__I1c___stl_sequent__TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__8__KET____DOT__maxpool__0((&vlSymsp->TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__8__KET____DOT__maxpool));
+        Vdut_MaxPoolCore__I1c___stl_sequent__TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__9__KET____DOT__maxpool__0((&vlSymsp->TOP__dut__DOT__pool1__DOT__maxpool_core_gen__BRA__9__KET____DOT__maxpool));
+        Vdut___024root___stl_sequent__TOP__2(vlSelf);
         Vdut_ConvCore__Ia_IBe___stl_sequent__TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__0__KET____DOT__core__0((&vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__0__KET____DOT__core));
         Vdut_ConvCore__Ia_IBe___stl_sequent__TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__0__KET____DOT__core__1((&vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__0__KET____DOT__core));
         Vdut_ConvCore__Ia_IBe___stl_sequent__TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__0__KET____DOT__core__0((&vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__1__KET____DOT__core));
@@ -250,6 +226,6 @@ VL_ATTR_COLD void Vdut___024root___eval_stl(Vdut___024root* vlSelf) {
         Vdut_ConvCore__Ia_IBe___stl_sequent__TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__6__KET____DOT__core__1((&vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__6__KET____DOT__core));
         Vdut_ConvCore__Ia_IBe___stl_sequent__TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__0__KET____DOT__core__0((&vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__7__KET____DOT__core));
         Vdut_ConvCore__Ia_IBe___stl_sequent__TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__7__KET____DOT__core__1((&vlSymsp->TOP__dut__DOT__conv2__DOT__conv_core_gen__BRA__7__KET____DOT__core));
-        Vdut___024root___stl_sequent__TOP__2(vlSelf);
+        Vdut___024root___stl_sequent__TOP__3(vlSelf);
     }
 }

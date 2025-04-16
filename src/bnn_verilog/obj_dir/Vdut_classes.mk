@@ -32,6 +32,7 @@ VM_CLASSES_SLOW += \
 	Vdut__ConstPool_0 \
 	Vdut___024root__Slow \
 	Vdut___024root__DepSet_h96d12fb6__0__Slow \
+	Vdut___024root__DepSet_h96d12fb6__1__Slow \
 	Vdut___024root__DepSet_h5056ad81__0__Slow \
 	Vdut_ConvCore__I1__Slow \
 	Vdut_ConvCore__I1__DepSet_h941eab6f__0__Slow \
