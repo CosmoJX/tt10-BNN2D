@@ -8,7 +8,7 @@ module dut (
     parameter int CONV1_OC = 10;
     parameter int CONV2_OC = 8;
     parameter int FC_IC= POOL2_IMG_OUT_SIZE*POOL2_IMG_OUT_SIZE*CONV2_OC;
-    parameter int FC_OC = 10; // num classes
+    parameter int FC_OC = 10;                   // num classes
     parameter int CONV1_IMG_IN_SIZE = 30;
     parameter int CONV1_IMG_OUT_SIZE = CONV1_IMG_IN_SIZE-2;
     parameter int POOL1_IMG_OUT_SIZE = CONV1_IMG_OUT_SIZE/2;
