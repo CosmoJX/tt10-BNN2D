@@ -14,7 +14,6 @@ void Vdut___024root___nba_sequent__TOP__5(Vdut___024root* vlSelf);
 void Vdut___024root___nba_sequent__TOP__6(Vdut___024root* vlSelf);
 void Vdut___024root___nba_sequent__TOP__7(Vdut___024root* vlSelf);
 void Vdut___024root___nba_sequent__TOP__8(Vdut___024root* vlSelf);
-void Vdut___024root___nba_sequent__TOP__9(Vdut___024root* vlSelf);
 
 void Vdut___024root___eval_nba(Vdut___024root* vlSelf) {
     if (false && vlSelf) {}  // Prevent unused
@@ -32,7 +31,6 @@ void Vdut___024root___eval_nba(Vdut___024root* vlSelf) {
         Vdut___024root___nba_sequent__TOP__6(vlSelf);
         Vdut___024root___nba_sequent__TOP__7(vlSelf);
         Vdut___024root___nba_sequent__TOP__8(vlSelf);
-        Vdut___024root___nba_sequent__TOP__9(vlSelf);
     }
 }
 
@@ -94,7 +92,7 @@ void Vdut___024root___eval(Vdut___024root* vlSelf) {
 #ifdef VL_DEBUG
             Vdut___024root___dump_triggers__nba(vlSelf);
 #endif
-            VL_FATAL_MT("dut.sv", 4, "", "NBA region did not converge.");
+            VL_FATAL_MT("dut.sv", 1, "", "NBA region did not converge.");
         }
         __VnbaIterCount = ((IData)(1U) + __VnbaIterCount);
         __VnbaContinue = 0U;
@@ -105,7 +103,7 @@ void Vdut___024root___eval(Vdut___024root* vlSelf) {
 #ifdef VL_DEBUG
                 Vdut___024root___dump_triggers__act(vlSelf);
 #endif
-                VL_FATAL_MT("dut.sv", 4, "", "Active region did not converge.");
+                VL_FATAL_MT("dut.sv", 1, "", "Active region did not converge.");
             }
             vlSelf->__VactIterCount = ((IData)(1U) 
                                        + vlSelf->__VactIterCount);
