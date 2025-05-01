@@ -26,15 +26,6 @@ VM_CLASSES_FAST += \
 	Vdut \
 	Vdut___024root__DepSet_h96d12fb6__0 \
 	Vdut___024root__DepSet_h5056ad81__0 \
-	Vdut___024root__DepSet_h5056ad81__1 \
-	Vdut___024root__DepSet_h5056ad81__2 \
-	Vdut___024root__DepSet_h5056ad81__3 \
-	Vdut___024root__DepSet_h5056ad81__4 \
-	Vdut___024root__DepSet_h5056ad81__5 \
-	Vdut___024root__DepSet_h5056ad81__6 \
-	Vdut___024root__DepSet_h5056ad81__7 \
-	Vdut___024root__DepSet_h5056ad81__8 \
-	Vdut___024root__DepSet_h5056ad81__9 \
 
 # Generated module classes, non-fast-path, compile with low/medium optimization
 VM_CLASSES_SLOW += \
@@ -43,16 +34,6 @@ VM_CLASSES_SLOW += \
 	Vdut___024root__DepSet_h96d12fb6__0__Slow \
 	Vdut___024root__DepSet_h5056ad81__0__Slow \
 	Vdut___024root__DepSet_h5056ad81__1__Slow \
-	Vdut___024root__DepSet_h5056ad81__2__Slow \
-	Vdut___024root__DepSet_h5056ad81__3__Slow \
-	Vdut___024root__DepSet_h5056ad81__4__Slow \
-	Vdut___024root__DepSet_h5056ad81__5__Slow \
-	Vdut___024root__DepSet_h5056ad81__6__Slow \
-	Vdut___024root__DepSet_h5056ad81__7__Slow \
-	Vdut___024root__DepSet_h5056ad81__8__Slow \
-	Vdut___024root__DepSet_h5056ad81__9__Slow \
-	Vdut___024root__DepSet_h5056ad81__10__Slow \
-	Vdut___024root__DepSet_h5056ad81__11__Slow \
 
 # Generated support classes, fast-path, compile with highest optimization
 VM_SUPPORT_FAST += \

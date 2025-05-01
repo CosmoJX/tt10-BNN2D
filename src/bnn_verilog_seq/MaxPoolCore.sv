@@ -5,6 +5,7 @@ module MaxPoolCore #(
     input logic [IMG_IN_SIZE*IMG_IN_SIZE-1:0] img_in,
     output logic [IMG_OUT_SIZE*IMG_OUT_SIZE-1:0] img_out
 );
+
     genvar row, col;
     generate
         for (row=0; row<IMG_OUT_SIZE; row=row+1) begin: out_row_gen // stride = 1 (output dimension)
