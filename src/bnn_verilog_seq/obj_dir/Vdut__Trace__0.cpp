@@ -235,25 +235,29 @@ void Vdut___024root__trace_chg_0_sub_0(Vdut___024root* vlSelf, VerilatedVcd::Buf
         bufp->chgIData(oldp+342,(vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic),32);
         bufp->chgIData(oldp+343,(vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row),32);
         bufp->chgIData(oldp+344,(vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col),32);
-        bufp->chgWData(oldp+345,(vlSelf->dut__DOT__conv_pool2__DOT__core_weight),144);
-        bufp->chgWData(oldp+350,(vlSelf->dut__DOT__conv_pool2__DOT__core_img_out),144);
-        bufp->chgQData(oldp+355,(vlSelf->dut__DOT__conv_pool2__DOT__pool_img_out),36);
-        bufp->chgBit(oldp+357,(vlSelf->dut__DOT__conv_pool2__DOT__core_data_in_ready));
-        bufp->chgBit(oldp+358,(vlSelf->dut__DOT__conv_pool2__DOT__core_data_out_ready));
-        bufp->chgIData(oldp+359,(vlSelf->dut__DOT__conv_pool2__DOT__cur_oc),32);
-        bufp->chgIData(oldp+360,(vlSelf->dut__DOT__conv_pool2__DOT__ConvBlock__DOT__unnamedblk1__DOT__i),32);
-        bufp->chgCData(oldp+361,(vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__popcount),8);
-        bufp->chgIData(oldp+362,(vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic),32);
-        bufp->chgIData(oldp+363,(vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row),32);
-        bufp->chgIData(oldp+364,(vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col),32);
-        bufp->chgIData(oldp+365,(vlSelf->dut__DOT__fc__DOT__cur_ic),32);
-        bufp->chgIData(oldp+366,(vlSelf->dut__DOT__fc__DOT__cur_oc),32);
-        bufp->chgSData(oldp+367,(vlSelf->dut__DOT__fc__DOT__temp_out),16);
-        bufp->chgIData(oldp+368,(vlSelf->dut__DOT__fc__DOT__unnamedblk1__DOT__i),32);
+        bufp->chgIData(oldp+345,(vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__adder_count),32);
+        bufp->chgCData(oldp+346,(vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__patch_val),8);
+        bufp->chgWData(oldp+347,(vlSelf->dut__DOT__conv_pool2__DOT__core_weight),144);
+        bufp->chgWData(oldp+352,(vlSelf->dut__DOT__conv_pool2__DOT__core_img_out),144);
+        bufp->chgQData(oldp+357,(vlSelf->dut__DOT__conv_pool2__DOT__pool_img_out),36);
+        bufp->chgBit(oldp+359,(vlSelf->dut__DOT__conv_pool2__DOT__core_data_in_ready));
+        bufp->chgBit(oldp+360,(vlSelf->dut__DOT__conv_pool2__DOT__core_data_out_ready));
+        bufp->chgIData(oldp+361,(vlSelf->dut__DOT__conv_pool2__DOT__cur_oc),32);
+        bufp->chgIData(oldp+362,(vlSelf->dut__DOT__conv_pool2__DOT__ConvBlock__DOT__unnamedblk1__DOT__i),32);
+        bufp->chgCData(oldp+363,(vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__popcount),8);
+        bufp->chgIData(oldp+364,(vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic),32);
+        bufp->chgIData(oldp+365,(vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row),32);
+        bufp->chgIData(oldp+366,(vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col),32);
+        bufp->chgIData(oldp+367,(vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__adder_count),32);
+        bufp->chgCData(oldp+368,(vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__patch_val),8);
+        bufp->chgIData(oldp+369,(vlSelf->dut__DOT__fc__DOT__cur_ic),32);
+        bufp->chgIData(oldp+370,(vlSelf->dut__DOT__fc__DOT__cur_oc),32);
+        bufp->chgSData(oldp+371,(vlSelf->dut__DOT__fc__DOT__temp_out),16);
+        bufp->chgIData(oldp+372,(vlSelf->dut__DOT__fc__DOT__unnamedblk1__DOT__i),32);
     }
-    bufp->chgBit(oldp+369,(vlSelf->clk));
-    bufp->chgBit(oldp+370,(vlSelf->data_in_ready));
-    bufp->chgBit(oldp+371,(vlSelf->data_out_ready));
+    bufp->chgBit(oldp+373,(vlSelf->clk));
+    bufp->chgBit(oldp+374,(vlSelf->data_in_ready));
+    bufp->chgBit(oldp+375,(vlSelf->data_out_ready));
 }
 
 void Vdut___024root__trace_cleanup(void* voidSelf, VerilatedVcd* /*unused*/) {

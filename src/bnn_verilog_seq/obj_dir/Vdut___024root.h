@@ -24,10 +24,12 @@ class alignas(VL_CACHE_LINE_BYTES) Vdut___024root final : public VerilatedModule
     CData/*0:0*/ dut__DOT__conv_pool1__DOT__core_data_in_ready;
     CData/*0:0*/ dut__DOT__conv_pool1__DOT__core_data_out_ready;
     CData/*7:0*/ dut__DOT__conv_pool1__DOT__core__DOT__popcount;
+    CData/*7:0*/ dut__DOT__conv_pool1__DOT__core__DOT__patch_val;
     CData/*0:0*/ dut__DOT__conv_pool1__DOT__core__DOT____Vlvbound_h31c0a0c9__0;
     CData/*0:0*/ dut__DOT__conv_pool2__DOT__core_data_in_ready;
     CData/*0:0*/ dut__DOT__conv_pool2__DOT__core_data_out_ready;
     CData/*7:0*/ dut__DOT__conv_pool2__DOT__core__DOT__popcount;
+    CData/*7:0*/ dut__DOT__conv_pool2__DOT__core__DOT__patch_val;
     CData/*0:0*/ dut__DOT__conv_pool2__DOT__core__DOT____Vlvbound_hbd5359ef__0;
     CData/*3:0*/ dut__DOT__compare__DOT__max_ind;
     CData/*0:0*/ __VstlFirstIteration;
@@ -44,6 +46,7 @@ class alignas(VL_CACHE_LINE_BYTES) Vdut___024root final : public VerilatedModule
     IData/*31:0*/ dut__DOT__conv_pool1__DOT__core__DOT__cur_ic;
     IData/*31:0*/ dut__DOT__conv_pool1__DOT__core__DOT__row;
     IData/*31:0*/ dut__DOT__conv_pool1__DOT__core__DOT__col;
+    IData/*31:0*/ dut__DOT__conv_pool1__DOT__core__DOT__adder_count;
     VlWide<5>/*143:0*/ dut__DOT__conv_pool2__DOT__core_weight;
     VlWide<5>/*143:0*/ dut__DOT__conv_pool2__DOT__core_img_out;
     IData/*31:0*/ dut__DOT__conv_pool2__DOT__cur_oc;
@@ -51,6 +54,7 @@ class alignas(VL_CACHE_LINE_BYTES) Vdut___024root final : public VerilatedModule
     IData/*31:0*/ dut__DOT__conv_pool2__DOT__core__DOT__cur_ic;
     IData/*31:0*/ dut__DOT__conv_pool2__DOT__core__DOT__row;
     IData/*31:0*/ dut__DOT__conv_pool2__DOT__core__DOT__col;
+    IData/*31:0*/ dut__DOT__conv_pool2__DOT__core__DOT__adder_count;
     IData/*31:0*/ dut__DOT__fc__DOT__cur_ic;
     IData/*31:0*/ dut__DOT__fc__DOT__cur_oc;
     IData/*31:0*/ dut__DOT__fc__DOT__unnamedblk1__DOT__i;

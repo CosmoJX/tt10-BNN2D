@@ -1866,6 +1866,8 @@ VL_ATTR_COLD void Vdut___024root___dump_triggers__stl(Vdut___024root* vlSelf) {
 }
 #endif  // VL_DEBUG
 
+extern const VlWide<29>/*927:0*/ Vdut__ConstPool__CONST_hddcbba25_0;
+
 VL_ATTR_COLD void Vdut___024root___stl_sequent__TOP__0(Vdut___024root* vlSelf) {
     if (false && vlSelf) {}  // Prevent unused
     Vdut__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
@@ -1900,6 +1902,15 @@ VL_ATTR_COLD void Vdut___024root___stl_sequent__TOP__0(Vdut___024root* vlSelf) {
     VlWide<6>/*191:0*/ __Vtemp_117;
     VlWide<6>/*191:0*/ __Vtemp_121;
     VlWide<6>/*191:0*/ __Vtemp_126;
+    VlWide<29>/*927:0*/ __Vtemp_133;
+    VlWide<29>/*927:0*/ __Vtemp_135;
+    VlWide<29>/*927:0*/ __Vtemp_137;
+    VlWide<29>/*927:0*/ __Vtemp_139;
+    VlWide<29>/*927:0*/ __Vtemp_141;
+    VlWide<29>/*927:0*/ __Vtemp_143;
+    VlWide<29>/*927:0*/ __Vtemp_145;
+    VlWide<29>/*927:0*/ __Vtemp_147;
+    VlWide<29>/*927:0*/ __Vtemp_149;
     // Body
     __Vtemp_1[0U] = (IData)((((QData)((IData)((1U & (IData)(
                                                             ((0U 
@@ -4682,134 +4693,1517 @@ VL_ATTR_COLD void Vdut___024root___stl_sequent__TOP__0(Vdut___024root* vlSelf) {
                                                                                 != 
                                                                                 (0x3003U 
                                                                                 & vlSelf->dut__DOT__conv_pool2__DOT__core_img_out[0U]))))))))))))))))))))))))))))))))))))))));
-}
-
-VL_ATTR_COLD void Vdut___024root___eval_stl(Vdut___024root* vlSelf) {
-    if (false && vlSelf) {}  // Prevent unused
-    Vdut__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vdut___024root___eval_stl\n"); );
-    // Body
-    if ((1ULL & vlSelf->__VstlTriggered.word(0U))) {
-        Vdut___024root___stl_sequent__TOP__0(vlSelf);
-        vlSelf->__Vm_traceActivity[1U] = 1U;
-        vlSelf->__Vm_traceActivity[0U] = 1U;
+    if ((0U >= (1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic))) {
+        __Vtemp_133[0U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0U];
+        __Vtemp_133[1U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][1U];
+        __Vtemp_133[2U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][2U];
+        __Vtemp_133[3U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][3U];
+        __Vtemp_133[4U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][4U];
+        __Vtemp_133[5U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][5U];
+        __Vtemp_133[6U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][6U];
+        __Vtemp_133[7U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][7U];
+        __Vtemp_133[8U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][8U];
+        __Vtemp_133[9U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][9U];
+        __Vtemp_133[0xaU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xaU];
+        __Vtemp_133[0xbU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xbU];
+        __Vtemp_133[0xcU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xcU];
+        __Vtemp_133[0xdU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xdU];
+        __Vtemp_133[0xeU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xeU];
+        __Vtemp_133[0xfU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xfU];
+        __Vtemp_133[0x10U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x10U];
+        __Vtemp_133[0x11U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x11U];
+        __Vtemp_133[0x12U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x12U];
+        __Vtemp_133[0x13U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x13U];
+        __Vtemp_133[0x14U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x14U];
+        __Vtemp_133[0x15U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x15U];
+        __Vtemp_133[0x16U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x16U];
+        __Vtemp_133[0x17U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x17U];
+        __Vtemp_133[0x18U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x18U];
+        __Vtemp_133[0x19U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x19U];
+        __Vtemp_133[0x1aU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x1aU];
+        __Vtemp_133[0x1bU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x1bU];
+        __Vtemp_133[0x1cU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x1cU];
+        __Vtemp_135[0U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0U];
+        __Vtemp_135[1U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][1U];
+        __Vtemp_135[2U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][2U];
+        __Vtemp_135[3U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][3U];
+        __Vtemp_135[4U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][4U];
+        __Vtemp_135[5U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][5U];
+        __Vtemp_135[6U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][6U];
+        __Vtemp_135[7U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][7U];
+        __Vtemp_135[8U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][8U];
+        __Vtemp_135[9U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][9U];
+        __Vtemp_135[0xaU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xaU];
+        __Vtemp_135[0xbU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xbU];
+        __Vtemp_135[0xcU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xcU];
+        __Vtemp_135[0xdU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xdU];
+        __Vtemp_135[0xeU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xeU];
+        __Vtemp_135[0xfU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xfU];
+        __Vtemp_135[0x10U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x10U];
+        __Vtemp_135[0x11U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x11U];
+        __Vtemp_135[0x12U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x12U];
+        __Vtemp_135[0x13U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x13U];
+        __Vtemp_135[0x14U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x14U];
+        __Vtemp_135[0x15U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x15U];
+        __Vtemp_135[0x16U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x16U];
+        __Vtemp_135[0x17U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x17U];
+        __Vtemp_135[0x18U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x18U];
+        __Vtemp_135[0x19U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x19U];
+        __Vtemp_135[0x1aU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x1aU];
+        __Vtemp_135[0x1bU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x1bU];
+        __Vtemp_135[0x1cU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x1cU];
+        __Vtemp_137[0U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0U];
+        __Vtemp_137[1U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][1U];
+        __Vtemp_137[2U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][2U];
+        __Vtemp_137[3U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][3U];
+        __Vtemp_137[4U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][4U];
+        __Vtemp_137[5U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][5U];
+        __Vtemp_137[6U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][6U];
+        __Vtemp_137[7U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][7U];
+        __Vtemp_137[8U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][8U];
+        __Vtemp_137[9U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][9U];
+        __Vtemp_137[0xaU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xaU];
+        __Vtemp_137[0xbU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xbU];
+        __Vtemp_137[0xcU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xcU];
+        __Vtemp_137[0xdU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xdU];
+        __Vtemp_137[0xeU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xeU];
+        __Vtemp_137[0xfU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xfU];
+        __Vtemp_137[0x10U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x10U];
+        __Vtemp_137[0x11U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x11U];
+        __Vtemp_137[0x12U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x12U];
+        __Vtemp_137[0x13U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x13U];
+        __Vtemp_137[0x14U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x14U];
+        __Vtemp_137[0x15U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x15U];
+        __Vtemp_137[0x16U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x16U];
+        __Vtemp_137[0x17U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x17U];
+        __Vtemp_137[0x18U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x18U];
+        __Vtemp_137[0x19U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x19U];
+        __Vtemp_137[0x1aU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x1aU];
+        __Vtemp_137[0x1bU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x1bU];
+        __Vtemp_137[0x1cU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x1cU];
+        __Vtemp_139[0U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0U];
+        __Vtemp_139[1U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][1U];
+        __Vtemp_139[2U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][2U];
+        __Vtemp_139[3U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][3U];
+        __Vtemp_139[4U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][4U];
+        __Vtemp_139[5U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][5U];
+        __Vtemp_139[6U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][6U];
+        __Vtemp_139[7U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][7U];
+        __Vtemp_139[8U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][8U];
+        __Vtemp_139[9U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][9U];
+        __Vtemp_139[0xaU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xaU];
+        __Vtemp_139[0xbU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xbU];
+        __Vtemp_139[0xcU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xcU];
+        __Vtemp_139[0xdU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xdU];
+        __Vtemp_139[0xeU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xeU];
+        __Vtemp_139[0xfU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xfU];
+        __Vtemp_139[0x10U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x10U];
+        __Vtemp_139[0x11U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x11U];
+        __Vtemp_139[0x12U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x12U];
+        __Vtemp_139[0x13U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x13U];
+        __Vtemp_139[0x14U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x14U];
+        __Vtemp_139[0x15U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x15U];
+        __Vtemp_139[0x16U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x16U];
+        __Vtemp_139[0x17U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x17U];
+        __Vtemp_139[0x18U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x18U];
+        __Vtemp_139[0x19U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x19U];
+        __Vtemp_139[0x1aU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x1aU];
+        __Vtemp_139[0x1bU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x1bU];
+        __Vtemp_139[0x1cU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x1cU];
+        __Vtemp_141[0U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0U];
+        __Vtemp_141[1U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][1U];
+        __Vtemp_141[2U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][2U];
+        __Vtemp_141[3U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][3U];
+        __Vtemp_141[4U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][4U];
+        __Vtemp_141[5U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][5U];
+        __Vtemp_141[6U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][6U];
+        __Vtemp_141[7U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][7U];
+        __Vtemp_141[8U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][8U];
+        __Vtemp_141[9U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][9U];
+        __Vtemp_141[0xaU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xaU];
+        __Vtemp_141[0xbU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xbU];
+        __Vtemp_141[0xcU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xcU];
+        __Vtemp_141[0xdU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xdU];
+        __Vtemp_141[0xeU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xeU];
+        __Vtemp_141[0xfU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xfU];
+        __Vtemp_141[0x10U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x10U];
+        __Vtemp_141[0x11U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x11U];
+        __Vtemp_141[0x12U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x12U];
+        __Vtemp_141[0x13U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x13U];
+        __Vtemp_141[0x14U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x14U];
+        __Vtemp_141[0x15U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x15U];
+        __Vtemp_141[0x16U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x16U];
+        __Vtemp_141[0x17U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x17U];
+        __Vtemp_141[0x18U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x18U];
+        __Vtemp_141[0x19U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x19U];
+        __Vtemp_141[0x1aU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x1aU];
+        __Vtemp_141[0x1bU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x1bU];
+        __Vtemp_141[0x1cU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x1cU];
+        __Vtemp_143[0U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0U];
+        __Vtemp_143[1U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][1U];
+        __Vtemp_143[2U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][2U];
+        __Vtemp_143[3U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][3U];
+        __Vtemp_143[4U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][4U];
+        __Vtemp_143[5U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][5U];
+        __Vtemp_143[6U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][6U];
+        __Vtemp_143[7U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][7U];
+        __Vtemp_143[8U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][8U];
+        __Vtemp_143[9U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][9U];
+        __Vtemp_143[0xaU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xaU];
+        __Vtemp_143[0xbU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xbU];
+        __Vtemp_143[0xcU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xcU];
+        __Vtemp_143[0xdU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xdU];
+        __Vtemp_143[0xeU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xeU];
+        __Vtemp_143[0xfU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xfU];
+        __Vtemp_143[0x10U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x10U];
+        __Vtemp_143[0x11U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x11U];
+        __Vtemp_143[0x12U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x12U];
+        __Vtemp_143[0x13U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x13U];
+        __Vtemp_143[0x14U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x14U];
+        __Vtemp_143[0x15U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x15U];
+        __Vtemp_143[0x16U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x16U];
+        __Vtemp_143[0x17U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x17U];
+        __Vtemp_143[0x18U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x18U];
+        __Vtemp_143[0x19U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x19U];
+        __Vtemp_143[0x1aU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x1aU];
+        __Vtemp_143[0x1bU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x1bU];
+        __Vtemp_143[0x1cU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x1cU];
+        __Vtemp_145[0U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0U];
+        __Vtemp_145[1U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][1U];
+        __Vtemp_145[2U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][2U];
+        __Vtemp_145[3U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][3U];
+        __Vtemp_145[4U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][4U];
+        __Vtemp_145[5U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][5U];
+        __Vtemp_145[6U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][6U];
+        __Vtemp_145[7U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][7U];
+        __Vtemp_145[8U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][8U];
+        __Vtemp_145[9U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][9U];
+        __Vtemp_145[0xaU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xaU];
+        __Vtemp_145[0xbU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xbU];
+        __Vtemp_145[0xcU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xcU];
+        __Vtemp_145[0xdU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xdU];
+        __Vtemp_145[0xeU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xeU];
+        __Vtemp_145[0xfU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xfU];
+        __Vtemp_145[0x10U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x10U];
+        __Vtemp_145[0x11U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x11U];
+        __Vtemp_145[0x12U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x12U];
+        __Vtemp_145[0x13U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x13U];
+        __Vtemp_145[0x14U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x14U];
+        __Vtemp_145[0x15U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x15U];
+        __Vtemp_145[0x16U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x16U];
+        __Vtemp_145[0x17U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x17U];
+        __Vtemp_145[0x18U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x18U];
+        __Vtemp_145[0x19U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x19U];
+        __Vtemp_145[0x1aU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x1aU];
+        __Vtemp_145[0x1bU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x1bU];
+        __Vtemp_145[0x1cU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x1cU];
+        __Vtemp_147[0U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0U];
+        __Vtemp_147[1U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][1U];
+        __Vtemp_147[2U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][2U];
+        __Vtemp_147[3U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][3U];
+        __Vtemp_147[4U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][4U];
+        __Vtemp_147[5U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][5U];
+        __Vtemp_147[6U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][6U];
+        __Vtemp_147[7U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][7U];
+        __Vtemp_147[8U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][8U];
+        __Vtemp_147[9U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][9U];
+        __Vtemp_147[0xaU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xaU];
+        __Vtemp_147[0xbU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xbU];
+        __Vtemp_147[0xcU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xcU];
+        __Vtemp_147[0xdU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xdU];
+        __Vtemp_147[0xeU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xeU];
+        __Vtemp_147[0xfU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xfU];
+        __Vtemp_147[0x10U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x10U];
+        __Vtemp_147[0x11U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x11U];
+        __Vtemp_147[0x12U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x12U];
+        __Vtemp_147[0x13U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x13U];
+        __Vtemp_147[0x14U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x14U];
+        __Vtemp_147[0x15U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x15U];
+        __Vtemp_147[0x16U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x16U];
+        __Vtemp_147[0x17U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x17U];
+        __Vtemp_147[0x18U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x18U];
+        __Vtemp_147[0x19U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x19U];
+        __Vtemp_147[0x1aU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x1aU];
+        __Vtemp_147[0x1bU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x1bU];
+        __Vtemp_147[0x1cU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x1cU];
+        __Vtemp_149[0U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0U];
+        __Vtemp_149[1U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][1U];
+        __Vtemp_149[2U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][2U];
+        __Vtemp_149[3U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][3U];
+        __Vtemp_149[4U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][4U];
+        __Vtemp_149[5U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][5U];
+        __Vtemp_149[6U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][6U];
+        __Vtemp_149[7U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][7U];
+        __Vtemp_149[8U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][8U];
+        __Vtemp_149[9U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][9U];
+        __Vtemp_149[0xaU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xaU];
+        __Vtemp_149[0xbU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xbU];
+        __Vtemp_149[0xcU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xcU];
+        __Vtemp_149[0xdU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xdU];
+        __Vtemp_149[0xeU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xeU];
+        __Vtemp_149[0xfU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0xfU];
+        __Vtemp_149[0x10U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x10U];
+        __Vtemp_149[0x11U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x11U];
+        __Vtemp_149[0x12U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x12U];
+        __Vtemp_149[0x13U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x13U];
+        __Vtemp_149[0x14U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x14U];
+        __Vtemp_149[0x15U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x15U];
+        __Vtemp_149[0x16U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x16U];
+        __Vtemp_149[0x17U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x17U];
+        __Vtemp_149[0x18U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x18U];
+        __Vtemp_149[0x19U] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x19U];
+        __Vtemp_149[0x1aU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x1aU];
+        __Vtemp_149[0x1bU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x1bU];
+        __Vtemp_149[0x1cU] = vlSelf->dut__DOT__conv1_img_in
+            [(1U & vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)][0x1cU];
+    } else {
+        __Vtemp_133[0U] = Vdut__ConstPool__CONST_hddcbba25_0[0U];
+        __Vtemp_133[1U] = Vdut__ConstPool__CONST_hddcbba25_0[1U];
+        __Vtemp_133[2U] = Vdut__ConstPool__CONST_hddcbba25_0[2U];
+        __Vtemp_133[3U] = Vdut__ConstPool__CONST_hddcbba25_0[3U];
+        __Vtemp_133[4U] = Vdut__ConstPool__CONST_hddcbba25_0[4U];
+        __Vtemp_133[5U] = Vdut__ConstPool__CONST_hddcbba25_0[5U];
+        __Vtemp_133[6U] = Vdut__ConstPool__CONST_hddcbba25_0[6U];
+        __Vtemp_133[7U] = Vdut__ConstPool__CONST_hddcbba25_0[7U];
+        __Vtemp_133[8U] = Vdut__ConstPool__CONST_hddcbba25_0[8U];
+        __Vtemp_133[9U] = Vdut__ConstPool__CONST_hddcbba25_0[9U];
+        __Vtemp_133[0xaU] = Vdut__ConstPool__CONST_hddcbba25_0[0xaU];
+        __Vtemp_133[0xbU] = Vdut__ConstPool__CONST_hddcbba25_0[0xbU];
+        __Vtemp_133[0xcU] = Vdut__ConstPool__CONST_hddcbba25_0[0xcU];
+        __Vtemp_133[0xdU] = Vdut__ConstPool__CONST_hddcbba25_0[0xdU];
+        __Vtemp_133[0xeU] = Vdut__ConstPool__CONST_hddcbba25_0[0xeU];
+        __Vtemp_133[0xfU] = Vdut__ConstPool__CONST_hddcbba25_0[0xfU];
+        __Vtemp_133[0x10U] = Vdut__ConstPool__CONST_hddcbba25_0[0x10U];
+        __Vtemp_133[0x11U] = Vdut__ConstPool__CONST_hddcbba25_0[0x11U];
+        __Vtemp_133[0x12U] = Vdut__ConstPool__CONST_hddcbba25_0[0x12U];
+        __Vtemp_133[0x13U] = Vdut__ConstPool__CONST_hddcbba25_0[0x13U];
+        __Vtemp_133[0x14U] = Vdut__ConstPool__CONST_hddcbba25_0[0x14U];
+        __Vtemp_133[0x15U] = Vdut__ConstPool__CONST_hddcbba25_0[0x15U];
+        __Vtemp_133[0x16U] = Vdut__ConstPool__CONST_hddcbba25_0[0x16U];
+        __Vtemp_133[0x17U] = Vdut__ConstPool__CONST_hddcbba25_0[0x17U];
+        __Vtemp_133[0x18U] = Vdut__ConstPool__CONST_hddcbba25_0[0x18U];
+        __Vtemp_133[0x19U] = Vdut__ConstPool__CONST_hddcbba25_0[0x19U];
+        __Vtemp_133[0x1aU] = Vdut__ConstPool__CONST_hddcbba25_0[0x1aU];
+        __Vtemp_133[0x1bU] = Vdut__ConstPool__CONST_hddcbba25_0[0x1bU];
+        __Vtemp_133[0x1cU] = Vdut__ConstPool__CONST_hddcbba25_0[0x1cU];
+        __Vtemp_135[0U] = Vdut__ConstPool__CONST_hddcbba25_0[0U];
+        __Vtemp_135[1U] = Vdut__ConstPool__CONST_hddcbba25_0[1U];
+        __Vtemp_135[2U] = Vdut__ConstPool__CONST_hddcbba25_0[2U];
+        __Vtemp_135[3U] = Vdut__ConstPool__CONST_hddcbba25_0[3U];
+        __Vtemp_135[4U] = Vdut__ConstPool__CONST_hddcbba25_0[4U];
+        __Vtemp_135[5U] = Vdut__ConstPool__CONST_hddcbba25_0[5U];
+        __Vtemp_135[6U] = Vdut__ConstPool__CONST_hddcbba25_0[6U];
+        __Vtemp_135[7U] = Vdut__ConstPool__CONST_hddcbba25_0[7U];
+        __Vtemp_135[8U] = Vdut__ConstPool__CONST_hddcbba25_0[8U];
+        __Vtemp_135[9U] = Vdut__ConstPool__CONST_hddcbba25_0[9U];
+        __Vtemp_135[0xaU] = Vdut__ConstPool__CONST_hddcbba25_0[0xaU];
+        __Vtemp_135[0xbU] = Vdut__ConstPool__CONST_hddcbba25_0[0xbU];
+        __Vtemp_135[0xcU] = Vdut__ConstPool__CONST_hddcbba25_0[0xcU];
+        __Vtemp_135[0xdU] = Vdut__ConstPool__CONST_hddcbba25_0[0xdU];
+        __Vtemp_135[0xeU] = Vdut__ConstPool__CONST_hddcbba25_0[0xeU];
+        __Vtemp_135[0xfU] = Vdut__ConstPool__CONST_hddcbba25_0[0xfU];
+        __Vtemp_135[0x10U] = Vdut__ConstPool__CONST_hddcbba25_0[0x10U];
+        __Vtemp_135[0x11U] = Vdut__ConstPool__CONST_hddcbba25_0[0x11U];
+        __Vtemp_135[0x12U] = Vdut__ConstPool__CONST_hddcbba25_0[0x12U];
+        __Vtemp_135[0x13U] = Vdut__ConstPool__CONST_hddcbba25_0[0x13U];
+        __Vtemp_135[0x14U] = Vdut__ConstPool__CONST_hddcbba25_0[0x14U];
+        __Vtemp_135[0x15U] = Vdut__ConstPool__CONST_hddcbba25_0[0x15U];
+        __Vtemp_135[0x16U] = Vdut__ConstPool__CONST_hddcbba25_0[0x16U];
+        __Vtemp_135[0x17U] = Vdut__ConstPool__CONST_hddcbba25_0[0x17U];
+        __Vtemp_135[0x18U] = Vdut__ConstPool__CONST_hddcbba25_0[0x18U];
+        __Vtemp_135[0x19U] = Vdut__ConstPool__CONST_hddcbba25_0[0x19U];
+        __Vtemp_135[0x1aU] = Vdut__ConstPool__CONST_hddcbba25_0[0x1aU];
+        __Vtemp_135[0x1bU] = Vdut__ConstPool__CONST_hddcbba25_0[0x1bU];
+        __Vtemp_135[0x1cU] = Vdut__ConstPool__CONST_hddcbba25_0[0x1cU];
+        __Vtemp_137[0U] = Vdut__ConstPool__CONST_hddcbba25_0[0U];
+        __Vtemp_137[1U] = Vdut__ConstPool__CONST_hddcbba25_0[1U];
+        __Vtemp_137[2U] = Vdut__ConstPool__CONST_hddcbba25_0[2U];
+        __Vtemp_137[3U] = Vdut__ConstPool__CONST_hddcbba25_0[3U];
+        __Vtemp_137[4U] = Vdut__ConstPool__CONST_hddcbba25_0[4U];
+        __Vtemp_137[5U] = Vdut__ConstPool__CONST_hddcbba25_0[5U];
+        __Vtemp_137[6U] = Vdut__ConstPool__CONST_hddcbba25_0[6U];
+        __Vtemp_137[7U] = Vdut__ConstPool__CONST_hddcbba25_0[7U];
+        __Vtemp_137[8U] = Vdut__ConstPool__CONST_hddcbba25_0[8U];
+        __Vtemp_137[9U] = Vdut__ConstPool__CONST_hddcbba25_0[9U];
+        __Vtemp_137[0xaU] = Vdut__ConstPool__CONST_hddcbba25_0[0xaU];
+        __Vtemp_137[0xbU] = Vdut__ConstPool__CONST_hddcbba25_0[0xbU];
+        __Vtemp_137[0xcU] = Vdut__ConstPool__CONST_hddcbba25_0[0xcU];
+        __Vtemp_137[0xdU] = Vdut__ConstPool__CONST_hddcbba25_0[0xdU];
+        __Vtemp_137[0xeU] = Vdut__ConstPool__CONST_hddcbba25_0[0xeU];
+        __Vtemp_137[0xfU] = Vdut__ConstPool__CONST_hddcbba25_0[0xfU];
+        __Vtemp_137[0x10U] = Vdut__ConstPool__CONST_hddcbba25_0[0x10U];
+        __Vtemp_137[0x11U] = Vdut__ConstPool__CONST_hddcbba25_0[0x11U];
+        __Vtemp_137[0x12U] = Vdut__ConstPool__CONST_hddcbba25_0[0x12U];
+        __Vtemp_137[0x13U] = Vdut__ConstPool__CONST_hddcbba25_0[0x13U];
+        __Vtemp_137[0x14U] = Vdut__ConstPool__CONST_hddcbba25_0[0x14U];
+        __Vtemp_137[0x15U] = Vdut__ConstPool__CONST_hddcbba25_0[0x15U];
+        __Vtemp_137[0x16U] = Vdut__ConstPool__CONST_hddcbba25_0[0x16U];
+        __Vtemp_137[0x17U] = Vdut__ConstPool__CONST_hddcbba25_0[0x17U];
+        __Vtemp_137[0x18U] = Vdut__ConstPool__CONST_hddcbba25_0[0x18U];
+        __Vtemp_137[0x19U] = Vdut__ConstPool__CONST_hddcbba25_0[0x19U];
+        __Vtemp_137[0x1aU] = Vdut__ConstPool__CONST_hddcbba25_0[0x1aU];
+        __Vtemp_137[0x1bU] = Vdut__ConstPool__CONST_hddcbba25_0[0x1bU];
+        __Vtemp_137[0x1cU] = Vdut__ConstPool__CONST_hddcbba25_0[0x1cU];
+        __Vtemp_139[0U] = Vdut__ConstPool__CONST_hddcbba25_0[0U];
+        __Vtemp_139[1U] = Vdut__ConstPool__CONST_hddcbba25_0[1U];
+        __Vtemp_139[2U] = Vdut__ConstPool__CONST_hddcbba25_0[2U];
+        __Vtemp_139[3U] = Vdut__ConstPool__CONST_hddcbba25_0[3U];
+        __Vtemp_139[4U] = Vdut__ConstPool__CONST_hddcbba25_0[4U];
+        __Vtemp_139[5U] = Vdut__ConstPool__CONST_hddcbba25_0[5U];
+        __Vtemp_139[6U] = Vdut__ConstPool__CONST_hddcbba25_0[6U];
+        __Vtemp_139[7U] = Vdut__ConstPool__CONST_hddcbba25_0[7U];
+        __Vtemp_139[8U] = Vdut__ConstPool__CONST_hddcbba25_0[8U];
+        __Vtemp_139[9U] = Vdut__ConstPool__CONST_hddcbba25_0[9U];
+        __Vtemp_139[0xaU] = Vdut__ConstPool__CONST_hddcbba25_0[0xaU];
+        __Vtemp_139[0xbU] = Vdut__ConstPool__CONST_hddcbba25_0[0xbU];
+        __Vtemp_139[0xcU] = Vdut__ConstPool__CONST_hddcbba25_0[0xcU];
+        __Vtemp_139[0xdU] = Vdut__ConstPool__CONST_hddcbba25_0[0xdU];
+        __Vtemp_139[0xeU] = Vdut__ConstPool__CONST_hddcbba25_0[0xeU];
+        __Vtemp_139[0xfU] = Vdut__ConstPool__CONST_hddcbba25_0[0xfU];
+        __Vtemp_139[0x10U] = Vdut__ConstPool__CONST_hddcbba25_0[0x10U];
+        __Vtemp_139[0x11U] = Vdut__ConstPool__CONST_hddcbba25_0[0x11U];
+        __Vtemp_139[0x12U] = Vdut__ConstPool__CONST_hddcbba25_0[0x12U];
+        __Vtemp_139[0x13U] = Vdut__ConstPool__CONST_hddcbba25_0[0x13U];
+        __Vtemp_139[0x14U] = Vdut__ConstPool__CONST_hddcbba25_0[0x14U];
+        __Vtemp_139[0x15U] = Vdut__ConstPool__CONST_hddcbba25_0[0x15U];
+        __Vtemp_139[0x16U] = Vdut__ConstPool__CONST_hddcbba25_0[0x16U];
+        __Vtemp_139[0x17U] = Vdut__ConstPool__CONST_hddcbba25_0[0x17U];
+        __Vtemp_139[0x18U] = Vdut__ConstPool__CONST_hddcbba25_0[0x18U];
+        __Vtemp_139[0x19U] = Vdut__ConstPool__CONST_hddcbba25_0[0x19U];
+        __Vtemp_139[0x1aU] = Vdut__ConstPool__CONST_hddcbba25_0[0x1aU];
+        __Vtemp_139[0x1bU] = Vdut__ConstPool__CONST_hddcbba25_0[0x1bU];
+        __Vtemp_139[0x1cU] = Vdut__ConstPool__CONST_hddcbba25_0[0x1cU];
+        __Vtemp_141[0U] = Vdut__ConstPool__CONST_hddcbba25_0[0U];
+        __Vtemp_141[1U] = Vdut__ConstPool__CONST_hddcbba25_0[1U];
+        __Vtemp_141[2U] = Vdut__ConstPool__CONST_hddcbba25_0[2U];
+        __Vtemp_141[3U] = Vdut__ConstPool__CONST_hddcbba25_0[3U];
+        __Vtemp_141[4U] = Vdut__ConstPool__CONST_hddcbba25_0[4U];
+        __Vtemp_141[5U] = Vdut__ConstPool__CONST_hddcbba25_0[5U];
+        __Vtemp_141[6U] = Vdut__ConstPool__CONST_hddcbba25_0[6U];
+        __Vtemp_141[7U] = Vdut__ConstPool__CONST_hddcbba25_0[7U];
+        __Vtemp_141[8U] = Vdut__ConstPool__CONST_hddcbba25_0[8U];
+        __Vtemp_141[9U] = Vdut__ConstPool__CONST_hddcbba25_0[9U];
+        __Vtemp_141[0xaU] = Vdut__ConstPool__CONST_hddcbba25_0[0xaU];
+        __Vtemp_141[0xbU] = Vdut__ConstPool__CONST_hddcbba25_0[0xbU];
+        __Vtemp_141[0xcU] = Vdut__ConstPool__CONST_hddcbba25_0[0xcU];
+        __Vtemp_141[0xdU] = Vdut__ConstPool__CONST_hddcbba25_0[0xdU];
+        __Vtemp_141[0xeU] = Vdut__ConstPool__CONST_hddcbba25_0[0xeU];
+        __Vtemp_141[0xfU] = Vdut__ConstPool__CONST_hddcbba25_0[0xfU];
+        __Vtemp_141[0x10U] = Vdut__ConstPool__CONST_hddcbba25_0[0x10U];
+        __Vtemp_141[0x11U] = Vdut__ConstPool__CONST_hddcbba25_0[0x11U];
+        __Vtemp_141[0x12U] = Vdut__ConstPool__CONST_hddcbba25_0[0x12U];
+        __Vtemp_141[0x13U] = Vdut__ConstPool__CONST_hddcbba25_0[0x13U];
+        __Vtemp_141[0x14U] = Vdut__ConstPool__CONST_hddcbba25_0[0x14U];
+        __Vtemp_141[0x15U] = Vdut__ConstPool__CONST_hddcbba25_0[0x15U];
+        __Vtemp_141[0x16U] = Vdut__ConstPool__CONST_hddcbba25_0[0x16U];
+        __Vtemp_141[0x17U] = Vdut__ConstPool__CONST_hddcbba25_0[0x17U];
+        __Vtemp_141[0x18U] = Vdut__ConstPool__CONST_hddcbba25_0[0x18U];
+        __Vtemp_141[0x19U] = Vdut__ConstPool__CONST_hddcbba25_0[0x19U];
+        __Vtemp_141[0x1aU] = Vdut__ConstPool__CONST_hddcbba25_0[0x1aU];
+        __Vtemp_141[0x1bU] = Vdut__ConstPool__CONST_hddcbba25_0[0x1bU];
+        __Vtemp_141[0x1cU] = Vdut__ConstPool__CONST_hddcbba25_0[0x1cU];
+        __Vtemp_143[0U] = Vdut__ConstPool__CONST_hddcbba25_0[0U];
+        __Vtemp_143[1U] = Vdut__ConstPool__CONST_hddcbba25_0[1U];
+        __Vtemp_143[2U] = Vdut__ConstPool__CONST_hddcbba25_0[2U];
+        __Vtemp_143[3U] = Vdut__ConstPool__CONST_hddcbba25_0[3U];
+        __Vtemp_143[4U] = Vdut__ConstPool__CONST_hddcbba25_0[4U];
+        __Vtemp_143[5U] = Vdut__ConstPool__CONST_hddcbba25_0[5U];
+        __Vtemp_143[6U] = Vdut__ConstPool__CONST_hddcbba25_0[6U];
+        __Vtemp_143[7U] = Vdut__ConstPool__CONST_hddcbba25_0[7U];
+        __Vtemp_143[8U] = Vdut__ConstPool__CONST_hddcbba25_0[8U];
+        __Vtemp_143[9U] = Vdut__ConstPool__CONST_hddcbba25_0[9U];
+        __Vtemp_143[0xaU] = Vdut__ConstPool__CONST_hddcbba25_0[0xaU];
+        __Vtemp_143[0xbU] = Vdut__ConstPool__CONST_hddcbba25_0[0xbU];
+        __Vtemp_143[0xcU] = Vdut__ConstPool__CONST_hddcbba25_0[0xcU];
+        __Vtemp_143[0xdU] = Vdut__ConstPool__CONST_hddcbba25_0[0xdU];
+        __Vtemp_143[0xeU] = Vdut__ConstPool__CONST_hddcbba25_0[0xeU];
+        __Vtemp_143[0xfU] = Vdut__ConstPool__CONST_hddcbba25_0[0xfU];
+        __Vtemp_143[0x10U] = Vdut__ConstPool__CONST_hddcbba25_0[0x10U];
+        __Vtemp_143[0x11U] = Vdut__ConstPool__CONST_hddcbba25_0[0x11U];
+        __Vtemp_143[0x12U] = Vdut__ConstPool__CONST_hddcbba25_0[0x12U];
+        __Vtemp_143[0x13U] = Vdut__ConstPool__CONST_hddcbba25_0[0x13U];
+        __Vtemp_143[0x14U] = Vdut__ConstPool__CONST_hddcbba25_0[0x14U];
+        __Vtemp_143[0x15U] = Vdut__ConstPool__CONST_hddcbba25_0[0x15U];
+        __Vtemp_143[0x16U] = Vdut__ConstPool__CONST_hddcbba25_0[0x16U];
+        __Vtemp_143[0x17U] = Vdut__ConstPool__CONST_hddcbba25_0[0x17U];
+        __Vtemp_143[0x18U] = Vdut__ConstPool__CONST_hddcbba25_0[0x18U];
+        __Vtemp_143[0x19U] = Vdut__ConstPool__CONST_hddcbba25_0[0x19U];
+        __Vtemp_143[0x1aU] = Vdut__ConstPool__CONST_hddcbba25_0[0x1aU];
+        __Vtemp_143[0x1bU] = Vdut__ConstPool__CONST_hddcbba25_0[0x1bU];
+        __Vtemp_143[0x1cU] = Vdut__ConstPool__CONST_hddcbba25_0[0x1cU];
+        __Vtemp_145[0U] = Vdut__ConstPool__CONST_hddcbba25_0[0U];
+        __Vtemp_145[1U] = Vdut__ConstPool__CONST_hddcbba25_0[1U];
+        __Vtemp_145[2U] = Vdut__ConstPool__CONST_hddcbba25_0[2U];
+        __Vtemp_145[3U] = Vdut__ConstPool__CONST_hddcbba25_0[3U];
+        __Vtemp_145[4U] = Vdut__ConstPool__CONST_hddcbba25_0[4U];
+        __Vtemp_145[5U] = Vdut__ConstPool__CONST_hddcbba25_0[5U];
+        __Vtemp_145[6U] = Vdut__ConstPool__CONST_hddcbba25_0[6U];
+        __Vtemp_145[7U] = Vdut__ConstPool__CONST_hddcbba25_0[7U];
+        __Vtemp_145[8U] = Vdut__ConstPool__CONST_hddcbba25_0[8U];
+        __Vtemp_145[9U] = Vdut__ConstPool__CONST_hddcbba25_0[9U];
+        __Vtemp_145[0xaU] = Vdut__ConstPool__CONST_hddcbba25_0[0xaU];
+        __Vtemp_145[0xbU] = Vdut__ConstPool__CONST_hddcbba25_0[0xbU];
+        __Vtemp_145[0xcU] = Vdut__ConstPool__CONST_hddcbba25_0[0xcU];
+        __Vtemp_145[0xdU] = Vdut__ConstPool__CONST_hddcbba25_0[0xdU];
+        __Vtemp_145[0xeU] = Vdut__ConstPool__CONST_hddcbba25_0[0xeU];
+        __Vtemp_145[0xfU] = Vdut__ConstPool__CONST_hddcbba25_0[0xfU];
+        __Vtemp_145[0x10U] = Vdut__ConstPool__CONST_hddcbba25_0[0x10U];
+        __Vtemp_145[0x11U] = Vdut__ConstPool__CONST_hddcbba25_0[0x11U];
+        __Vtemp_145[0x12U] = Vdut__ConstPool__CONST_hddcbba25_0[0x12U];
+        __Vtemp_145[0x13U] = Vdut__ConstPool__CONST_hddcbba25_0[0x13U];
+        __Vtemp_145[0x14U] = Vdut__ConstPool__CONST_hddcbba25_0[0x14U];
+        __Vtemp_145[0x15U] = Vdut__ConstPool__CONST_hddcbba25_0[0x15U];
+        __Vtemp_145[0x16U] = Vdut__ConstPool__CONST_hddcbba25_0[0x16U];
+        __Vtemp_145[0x17U] = Vdut__ConstPool__CONST_hddcbba25_0[0x17U];
+        __Vtemp_145[0x18U] = Vdut__ConstPool__CONST_hddcbba25_0[0x18U];
+        __Vtemp_145[0x19U] = Vdut__ConstPool__CONST_hddcbba25_0[0x19U];
+        __Vtemp_145[0x1aU] = Vdut__ConstPool__CONST_hddcbba25_0[0x1aU];
+        __Vtemp_145[0x1bU] = Vdut__ConstPool__CONST_hddcbba25_0[0x1bU];
+        __Vtemp_145[0x1cU] = Vdut__ConstPool__CONST_hddcbba25_0[0x1cU];
+        __Vtemp_147[0U] = Vdut__ConstPool__CONST_hddcbba25_0[0U];
+        __Vtemp_147[1U] = Vdut__ConstPool__CONST_hddcbba25_0[1U];
+        __Vtemp_147[2U] = Vdut__ConstPool__CONST_hddcbba25_0[2U];
+        __Vtemp_147[3U] = Vdut__ConstPool__CONST_hddcbba25_0[3U];
+        __Vtemp_147[4U] = Vdut__ConstPool__CONST_hddcbba25_0[4U];
+        __Vtemp_147[5U] = Vdut__ConstPool__CONST_hddcbba25_0[5U];
+        __Vtemp_147[6U] = Vdut__ConstPool__CONST_hddcbba25_0[6U];
+        __Vtemp_147[7U] = Vdut__ConstPool__CONST_hddcbba25_0[7U];
+        __Vtemp_147[8U] = Vdut__ConstPool__CONST_hddcbba25_0[8U];
+        __Vtemp_147[9U] = Vdut__ConstPool__CONST_hddcbba25_0[9U];
+        __Vtemp_147[0xaU] = Vdut__ConstPool__CONST_hddcbba25_0[0xaU];
+        __Vtemp_147[0xbU] = Vdut__ConstPool__CONST_hddcbba25_0[0xbU];
+        __Vtemp_147[0xcU] = Vdut__ConstPool__CONST_hddcbba25_0[0xcU];
+        __Vtemp_147[0xdU] = Vdut__ConstPool__CONST_hddcbba25_0[0xdU];
+        __Vtemp_147[0xeU] = Vdut__ConstPool__CONST_hddcbba25_0[0xeU];
+        __Vtemp_147[0xfU] = Vdut__ConstPool__CONST_hddcbba25_0[0xfU];
+        __Vtemp_147[0x10U] = Vdut__ConstPool__CONST_hddcbba25_0[0x10U];
+        __Vtemp_147[0x11U] = Vdut__ConstPool__CONST_hddcbba25_0[0x11U];
+        __Vtemp_147[0x12U] = Vdut__ConstPool__CONST_hddcbba25_0[0x12U];
+        __Vtemp_147[0x13U] = Vdut__ConstPool__CONST_hddcbba25_0[0x13U];
+        __Vtemp_147[0x14U] = Vdut__ConstPool__CONST_hddcbba25_0[0x14U];
+        __Vtemp_147[0x15U] = Vdut__ConstPool__CONST_hddcbba25_0[0x15U];
+        __Vtemp_147[0x16U] = Vdut__ConstPool__CONST_hddcbba25_0[0x16U];
+        __Vtemp_147[0x17U] = Vdut__ConstPool__CONST_hddcbba25_0[0x17U];
+        __Vtemp_147[0x18U] = Vdut__ConstPool__CONST_hddcbba25_0[0x18U];
+        __Vtemp_147[0x19U] = Vdut__ConstPool__CONST_hddcbba25_0[0x19U];
+        __Vtemp_147[0x1aU] = Vdut__ConstPool__CONST_hddcbba25_0[0x1aU];
+        __Vtemp_147[0x1bU] = Vdut__ConstPool__CONST_hddcbba25_0[0x1bU];
+        __Vtemp_147[0x1cU] = Vdut__ConstPool__CONST_hddcbba25_0[0x1cU];
+        __Vtemp_149[0U] = Vdut__ConstPool__CONST_hddcbba25_0[0U];
+        __Vtemp_149[1U] = Vdut__ConstPool__CONST_hddcbba25_0[1U];
+        __Vtemp_149[2U] = Vdut__ConstPool__CONST_hddcbba25_0[2U];
+        __Vtemp_149[3U] = Vdut__ConstPool__CONST_hddcbba25_0[3U];
+        __Vtemp_149[4U] = Vdut__ConstPool__CONST_hddcbba25_0[4U];
+        __Vtemp_149[5U] = Vdut__ConstPool__CONST_hddcbba25_0[5U];
+        __Vtemp_149[6U] = Vdut__ConstPool__CONST_hddcbba25_0[6U];
+        __Vtemp_149[7U] = Vdut__ConstPool__CONST_hddcbba25_0[7U];
+        __Vtemp_149[8U] = Vdut__ConstPool__CONST_hddcbba25_0[8U];
+        __Vtemp_149[9U] = Vdut__ConstPool__CONST_hddcbba25_0[9U];
+        __Vtemp_149[0xaU] = Vdut__ConstPool__CONST_hddcbba25_0[0xaU];
+        __Vtemp_149[0xbU] = Vdut__ConstPool__CONST_hddcbba25_0[0xbU];
+        __Vtemp_149[0xcU] = Vdut__ConstPool__CONST_hddcbba25_0[0xcU];
+        __Vtemp_149[0xdU] = Vdut__ConstPool__CONST_hddcbba25_0[0xdU];
+        __Vtemp_149[0xeU] = Vdut__ConstPool__CONST_hddcbba25_0[0xeU];
+        __Vtemp_149[0xfU] = Vdut__ConstPool__CONST_hddcbba25_0[0xfU];
+        __Vtemp_149[0x10U] = Vdut__ConstPool__CONST_hddcbba25_0[0x10U];
+        __Vtemp_149[0x11U] = Vdut__ConstPool__CONST_hddcbba25_0[0x11U];
+        __Vtemp_149[0x12U] = Vdut__ConstPool__CONST_hddcbba25_0[0x12U];
+        __Vtemp_149[0x13U] = Vdut__ConstPool__CONST_hddcbba25_0[0x13U];
+        __Vtemp_149[0x14U] = Vdut__ConstPool__CONST_hddcbba25_0[0x14U];
+        __Vtemp_149[0x15U] = Vdut__ConstPool__CONST_hddcbba25_0[0x15U];
+        __Vtemp_149[0x16U] = Vdut__ConstPool__CONST_hddcbba25_0[0x16U];
+        __Vtemp_149[0x17U] = Vdut__ConstPool__CONST_hddcbba25_0[0x17U];
+        __Vtemp_149[0x18U] = Vdut__ConstPool__CONST_hddcbba25_0[0x18U];
+        __Vtemp_149[0x19U] = Vdut__ConstPool__CONST_hddcbba25_0[0x19U];
+        __Vtemp_149[0x1aU] = Vdut__ConstPool__CONST_hddcbba25_0[0x1aU];
+        __Vtemp_149[0x1bU] = Vdut__ConstPool__CONST_hddcbba25_0[0x1bU];
+        __Vtemp_149[0x1cU] = Vdut__ConstPool__CONST_hddcbba25_0[0x1cU];
     }
-}
-
-VL_ATTR_COLD void Vdut___024root___eval_triggers__stl(Vdut___024root* vlSelf);
-
-VL_ATTR_COLD bool Vdut___024root___eval_phase__stl(Vdut___024root* vlSelf) {
-    if (false && vlSelf) {}  // Prevent unused
-    Vdut__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vdut___024root___eval_phase__stl\n"); );
-    // Init
-    CData/*0:0*/ __VstlExecute;
-    // Body
-    Vdut___024root___eval_triggers__stl(vlSelf);
-    __VstlExecute = vlSelf->__VstlTriggered.any();
-    if (__VstlExecute) {
-        Vdut___024root___eval_stl(vlSelf);
-    }
-    return (__VstlExecute);
-}
-
-#ifdef VL_DEBUG
-VL_ATTR_COLD void Vdut___024root___dump_triggers__act(Vdut___024root* vlSelf) {
-    if (false && vlSelf) {}  // Prevent unused
-    Vdut__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vdut___024root___dump_triggers__act\n"); );
-    // Body
-    if ((1U & (~ (IData)(vlSelf->__VactTriggered.any())))) {
-        VL_DBG_MSGF("         No triggers active\n");
-    }
-    if ((1ULL & vlSelf->__VactTriggered.word(0U))) {
-        VL_DBG_MSGF("         'act' region trigger index 0 is active: @(posedge clk)\n");
-    }
-}
-#endif  // VL_DEBUG
-
-#ifdef VL_DEBUG
-VL_ATTR_COLD void Vdut___024root___dump_triggers__nba(Vdut___024root* vlSelf) {
-    if (false && vlSelf) {}  // Prevent unused
-    Vdut__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vdut___024root___dump_triggers__nba\n"); );
-    // Body
-    if ((1U & (~ (IData)(vlSelf->__VnbaTriggered.any())))) {
-        VL_DBG_MSGF("         No triggers active\n");
-    }
-    if ((1ULL & vlSelf->__VnbaTriggered.word(0U))) {
-        VL_DBG_MSGF("         'nba' region trigger index 0 is active: @(posedge clk)\n");
-    }
-}
-#endif  // VL_DEBUG
-
-VL_ATTR_COLD void Vdut___024root___ctor_var_reset(Vdut___024root* vlSelf) {
-    if (false && vlSelf) {}  // Prevent unused
-    Vdut__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vdut___024root___ctor_var_reset\n"); );
-    // Body
-    vlSelf->clk = VL_RAND_RESET_I(1);
-    vlSelf->data_in_ready = VL_RAND_RESET_I(1);
-    vlSelf->data_out_ready = VL_RAND_RESET_I(1);
-    for (int __Vi0 = 0; __Vi0 < 1; ++__Vi0) {
-        VL_RAND_RESET_W(900, vlSelf->dut__DOT__conv1_img_in[__Vi0]);
-    }
-    for (int __Vi0 = 0; __Vi0 < 16; ++__Vi0) {
-        vlSelf->dut__DOT__conv1_weights[__Vi0] = VL_RAND_RESET_I(9);
-    }
-    for (int __Vi0 = 0; __Vi0 < 16; ++__Vi0) {
-        VL_RAND_RESET_W(144, vlSelf->dut__DOT__conv2_weights[__Vi0]);
-    }
-    for (int __Vi0 = 0; __Vi0 < 5760; ++__Vi0) {
-        vlSelf->dut__DOT__fc_weights[__Vi0] = VL_RAND_RESET_I(16);
-    }
-    for (int __Vi0 = 0; __Vi0 < 16; ++__Vi0) {
-        VL_RAND_RESET_W(196, vlSelf->dut__DOT__pool1_img_out[__Vi0]);
-    }
-    for (int __Vi0 = 0; __Vi0 < 16; ++__Vi0) {
-        vlSelf->dut__DOT__pool2_img_out[__Vi0] = VL_RAND_RESET_Q(36);
-    }
-    for (int __Vi0 = 0; __Vi0 < 10; ++__Vi0) {
-        vlSelf->dut__DOT__fc_out[__Vi0] = VL_RAND_RESET_I(16);
-    }
-    vlSelf->dut__DOT__result = VL_RAND_RESET_I(4);
-    vlSelf->dut__DOT__conv1_data_ready = VL_RAND_RESET_I(1);
-    vlSelf->dut__DOT__conv2_data_ready = VL_RAND_RESET_I(1);
-    vlSelf->dut__DOT__fc_data_ready = VL_RAND_RESET_I(1);
-    vlSelf->dut__DOT__conv_pool1__DOT__core_weight = VL_RAND_RESET_I(9);
-    VL_RAND_RESET_W(784, vlSelf->dut__DOT__conv_pool1__DOT__core_img_out);
-    VL_RAND_RESET_W(196, vlSelf->dut__DOT__conv_pool1__DOT__pool_img_out);
-    vlSelf->dut__DOT__conv_pool1__DOT__core_data_in_ready = VL_RAND_RESET_I(1);
-    vlSelf->dut__DOT__conv_pool1__DOT__core_data_out_ready = VL_RAND_RESET_I(1);
-    vlSelf->dut__DOT__conv_pool1__DOT__cur_oc = VL_RAND_RESET_I(32);
-    vlSelf->dut__DOT__conv_pool1__DOT__ConvBlock__DOT__unnamedblk1__DOT__i = 0;
-    vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__popcount = VL_RAND_RESET_I(8);
-    vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic = VL_RAND_RESET_I(32);
-    vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row = VL_RAND_RESET_I(32);
-    vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col = VL_RAND_RESET_I(32);
-    vlSelf->dut__DOT__conv_pool1__DOT__core__DOT____Vlvbound_h31c0a0c9__0 = VL_RAND_RESET_I(1);
-    VL_RAND_RESET_W(144, vlSelf->dut__DOT__conv_pool2__DOT__core_weight);
-    VL_RAND_RESET_W(144, vlSelf->dut__DOT__conv_pool2__DOT__core_img_out);
-    vlSelf->dut__DOT__conv_pool2__DOT__pool_img_out = VL_RAND_RESET_Q(36);
-    vlSelf->dut__DOT__conv_pool2__DOT__core_data_in_ready = VL_RAND_RESET_I(1);
-    vlSelf->dut__DOT__conv_pool2__DOT__core_data_out_ready = VL_RAND_RESET_I(1);
-    vlSelf->dut__DOT__conv_pool2__DOT__cur_oc = VL_RAND_RESET_I(32);
-    vlSelf->dut__DOT__conv_pool2__DOT__ConvBlock__DOT__unnamedblk1__DOT__i = 0;
-    vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__popcount = VL_RAND_RESET_I(8);
-    vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic = VL_RAND_RESET_I(32);
-    vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row = VL_RAND_RESET_I(32);
-    vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col = VL_RAND_RESET_I(32);
-    vlSelf->dut__DOT__conv_pool2__DOT__core__DOT____Vlvbound_hbd5359ef__0 = VL_RAND_RESET_I(1);
-    vlSelf->dut__DOT__fc__DOT__cur_ic = VL_RAND_RESET_I(32);
-    vlSelf->dut__DOT__fc__DOT__cur_oc = VL_RAND_RESET_I(32);
-    vlSelf->dut__DOT__fc__DOT__temp_out = VL_RAND_RESET_I(16);
-    vlSelf->dut__DOT__fc__DOT__unnamedblk1__DOT__i = 0;
-    vlSelf->dut__DOT__fc__DOT____Vlvbound_hff12f236__0 = VL_RAND_RESET_I(16);
-    vlSelf->dut__DOT__compare__DOT__max = VL_RAND_RESET_I(16);
-    vlSelf->dut__DOT__compare__DOT__max_ind = VL_RAND_RESET_I(4);
-    vlSelf->dut__DOT__compare__DOT__cur_ic = VL_RAND_RESET_I(32);
-    vlSelf->__Vtrigprevexpr___TOP__clk__0 = VL_RAND_RESET_I(1);
-    for (int __Vi0 = 0; __Vi0 < 2; ++__Vi0) {
-        vlSelf->__Vm_traceActivity[__Vi0] = 0;
-    }
+    vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__patch_val 
+        = (((((((((0U == vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__adder_count) 
+                  | (1U == vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__adder_count)) 
+                 | (2U == vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__adder_count)) 
+                | (3U == vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__adder_count)) 
+               | (4U == vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__adder_count)) 
+              | (5U == vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__adder_count)) 
+             | (6U == vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__adder_count)) 
+            | (7U == vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__adder_count))
+            ? ((0U == vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__adder_count)
+                ? ((((0x383U >= (0x3ffU & (VL_MULS_III(32, (IData)(0x1eU), vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row) 
+                                           + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col))) 
+                     && (1U & (__Vtemp_133[(0x1fU & 
+                                            ((VL_MULS_III(32, (IData)(0x1eU), vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row) 
+                                              + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col) 
+                                             >> 5U))] 
+                               >> (0x1fU & (VL_MULS_III(32, (IData)(0x1eU), vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row) 
+                                            + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col))))) 
+                    == ((8U >= (0xfU & VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic))) 
+                        && (1U & ((IData)(vlSelf->dut__DOT__conv_pool1__DOT__core_weight) 
+                                  >> (0xfU & VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic))))))
+                    ? 1U : 0xffU) : ((1U == vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__adder_count)
+                                      ? ((((0x383U 
+                                            >= (0x3ffU 
+                                                & ((IData)(1U) 
+                                                   + 
+                                                   (VL_MULS_III(32, (IData)(0x1eU), vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row) 
+                                                    + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col)))) 
+                                           && (1U & 
+                                               (__Vtemp_135[
+                                                (0x1fU 
+                                                 & (((IData)(1U) 
+                                                     + 
+                                                     (VL_MULS_III(32, (IData)(0x1eU), vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row) 
+                                                      + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col)) 
+                                                    >> 5U))] 
+                                                >> 
+                                                (0x1fU 
+                                                 & ((IData)(1U) 
+                                                    + 
+                                                    (VL_MULS_III(32, (IData)(0x1eU), vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row) 
+                                                     + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col)))))) 
+                                          == ((8U >= 
+                                               (0xfU 
+                                                & ((IData)(1U) 
+                                                   + 
+                                                   VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)))) 
+                                              && (1U 
+                                                  & ((IData)(vlSelf->dut__DOT__conv_pool1__DOT__core_weight) 
+                                                     >> 
+                                                     (0xfU 
+                                                      & ((IData)(1U) 
+                                                         + 
+                                                         VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)))))))
+                                          ? 1U : 0xffU)
+                                      : ((2U == vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__adder_count)
+                                          ? ((((0x383U 
+                                                >= 
+                                                (0x3ffU 
+                                                 & ((IData)(2U) 
+                                                    + 
+                                                    (VL_MULS_III(32, (IData)(0x1eU), vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row) 
+                                                     + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col)))) 
+                                               && (1U 
+                                                   & (__Vtemp_137[
+                                                      (0x1fU 
+                                                       & (((IData)(2U) 
+                                                           + 
+                                                           (VL_MULS_III(32, (IData)(0x1eU), vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row) 
+                                                            + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col)) 
+                                                          >> 5U))] 
+                                                      >> 
+                                                      (0x1fU 
+                                                       & ((IData)(2U) 
+                                                          + 
+                                                          (VL_MULS_III(32, (IData)(0x1eU), vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row) 
+                                                           + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col)))))) 
+                                              == ((8U 
+                                                   >= 
+                                                   (0xfU 
+                                                    & ((IData)(2U) 
+                                                       + 
+                                                       VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)))) 
+                                                  && (1U 
+                                                      & ((IData)(vlSelf->dut__DOT__conv_pool1__DOT__core_weight) 
+                                                         >> 
+                                                         (0xfU 
+                                                          & ((IData)(2U) 
+                                                             + 
+                                                             VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)))))))
+                                              ? 1U : 0xffU)
+                                          : ((3U == vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__adder_count)
+                                              ? (((
+                                                   (0x383U 
+                                                    >= 
+                                                    (0x3ffU 
+                                                     & (VL_MULS_III(32, (IData)(0x1eU), 
+                                                                    ((IData)(1U) 
+                                                                     + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row)) 
+                                                        + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col))) 
+                                                   && (1U 
+                                                       & (__Vtemp_139[
+                                                          (0x1fU 
+                                                           & ((VL_MULS_III(32, (IData)(0x1eU), 
+                                                                           ((IData)(1U) 
+                                                                            + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row)) 
+                                                               + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col) 
+                                                              >> 5U))] 
+                                                          >> 
+                                                          (0x1fU 
+                                                           & (VL_MULS_III(32, (IData)(0x1eU), 
+                                                                          ((IData)(1U) 
+                                                                           + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row)) 
+                                                              + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col))))) 
+                                                  == 
+                                                  ((8U 
+                                                    >= 
+                                                    (0xfU 
+                                                     & ((IData)(3U) 
+                                                        + 
+                                                        VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)))) 
+                                                   && (1U 
+                                                       & ((IData)(vlSelf->dut__DOT__conv_pool1__DOT__core_weight) 
+                                                          >> 
+                                                          (0xfU 
+                                                           & ((IData)(3U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)))))))
+                                                  ? 1U
+                                                  : 0xffU)
+                                              : ((4U 
+                                                  == vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__adder_count)
+                                                  ? 
+                                                 ((((0x383U 
+                                                     >= 
+                                                     (0x3ffU 
+                                                      & ((IData)(1U) 
+                                                         + 
+                                                         (VL_MULS_III(32, (IData)(0x1eU), 
+                                                                      ((IData)(1U) 
+                                                                       + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row)) 
+                                                          + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col)))) 
+                                                    && (1U 
+                                                        & (__Vtemp_141[
+                                                           (0x1fU 
+                                                            & (((IData)(1U) 
+                                                                + 
+                                                                (VL_MULS_III(32, (IData)(0x1eU), 
+                                                                             ((IData)(1U) 
+                                                                              + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row)) 
+                                                                 + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col)) 
+                                                               >> 5U))] 
+                                                           >> 
+                                                           (0x1fU 
+                                                            & ((IData)(1U) 
+                                                               + 
+                                                               (VL_MULS_III(32, (IData)(0x1eU), 
+                                                                            ((IData)(1U) 
+                                                                             + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row)) 
+                                                                + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col)))))) 
+                                                   == 
+                                                   ((8U 
+                                                     >= 
+                                                     (0xfU 
+                                                      & ((IData)(4U) 
+                                                         + 
+                                                         VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)))) 
+                                                    && (1U 
+                                                        & ((IData)(vlSelf->dut__DOT__conv_pool1__DOT__core_weight) 
+                                                           >> 
+                                                           (0xfU 
+                                                            & ((IData)(4U) 
+                                                               + 
+                                                               VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)))))))
+                                                   ? 1U
+                                                   : 0xffU)
+                                                  : 
+                                                 ((5U 
+                                                   == vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__adder_count)
+                                                   ? 
+                                                  ((((0x383U 
+                                                      >= 
+                                                      (0x3ffU 
+                                                       & ((IData)(2U) 
+                                                          + 
+                                                          (VL_MULS_III(32, (IData)(0x1eU), 
+                                                                       ((IData)(1U) 
+                                                                        + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row)) 
+                                                           + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col)))) 
+                                                     && (1U 
+                                                         & (__Vtemp_143[
+                                                            (0x1fU 
+                                                             & (((IData)(2U) 
+                                                                 + 
+                                                                 (VL_MULS_III(32, (IData)(0x1eU), 
+                                                                              ((IData)(1U) 
+                                                                               + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row)) 
+                                                                  + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col)) 
+                                                                >> 5U))] 
+                                                            >> 
+                                                            (0x1fU 
+                                                             & ((IData)(2U) 
+                                                                + 
+                                                                (VL_MULS_III(32, (IData)(0x1eU), 
+                                                                             ((IData)(1U) 
+                                                                              + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row)) 
+                                                                 + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col)))))) 
+                                                    == 
+                                                    ((8U 
+                                                      >= 
+                                                      (0xfU 
+                                                       & ((IData)(5U) 
+                                                          + 
+                                                          VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)))) 
+                                                     && (1U 
+                                                         & ((IData)(vlSelf->dut__DOT__conv_pool1__DOT__core_weight) 
+                                                            >> 
+                                                            (0xfU 
+                                                             & ((IData)(5U) 
+                                                                + 
+                                                                VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)))))))
+                                                    ? 1U
+                                                    : 0xffU)
+                                                   : 
+                                                  ((6U 
+                                                    == vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__adder_count)
+                                                    ? 
+                                                   ((((0x383U 
+                                                       >= 
+                                                       (0x3ffU 
+                                                        & (VL_MULS_III(32, (IData)(0x1eU), 
+                                                                       ((IData)(2U) 
+                                                                        + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row)) 
+                                                           + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col))) 
+                                                      && (1U 
+                                                          & (__Vtemp_145[
+                                                             (0x1fU 
+                                                              & ((VL_MULS_III(32, (IData)(0x1eU), 
+                                                                              ((IData)(2U) 
+                                                                               + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row)) 
+                                                                  + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col) 
+                                                                 >> 5U))] 
+                                                             >> 
+                                                             (0x1fU 
+                                                              & (VL_MULS_III(32, (IData)(0x1eU), 
+                                                                             ((IData)(2U) 
+                                                                              + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row)) 
+                                                                 + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col))))) 
+                                                     == 
+                                                     ((8U 
+                                                       >= 
+                                                       (0xfU 
+                                                        & ((IData)(6U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)))) 
+                                                      && (1U 
+                                                          & ((IData)(vlSelf->dut__DOT__conv_pool1__DOT__core_weight) 
+                                                             >> 
+                                                             (0xfU 
+                                                              & ((IData)(6U) 
+                                                                 + 
+                                                                 VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)))))))
+                                                     ? 1U
+                                                     : 0xffU)
+                                                    : 
+                                                   ((((0x383U 
+                                                       >= 
+                                                       (0x3ffU 
+                                                        & ((IData)(1U) 
+                                                           + 
+                                                           (VL_MULS_III(32, (IData)(0x1eU), 
+                                                                        ((IData)(2U) 
+                                                                         + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row)) 
+                                                            + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col)))) 
+                                                      && (1U 
+                                                          & (__Vtemp_147[
+                                                             (0x1fU 
+                                                              & (((IData)(1U) 
+                                                                  + 
+                                                                  (VL_MULS_III(32, (IData)(0x1eU), 
+                                                                               ((IData)(2U) 
+                                                                                + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row)) 
+                                                                   + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col)) 
+                                                                 >> 5U))] 
+                                                             >> 
+                                                             (0x1fU 
+                                                              & ((IData)(1U) 
+                                                                 + 
+                                                                 (VL_MULS_III(32, (IData)(0x1eU), 
+                                                                              ((IData)(2U) 
+                                                                               + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row)) 
+                                                                  + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col)))))) 
+                                                     == 
+                                                     ((8U 
+                                                       >= 
+                                                       (0xfU 
+                                                        & ((IData)(7U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)))) 
+                                                      && (1U 
+                                                          & ((IData)(vlSelf->dut__DOT__conv_pool1__DOT__core_weight) 
+                                                             >> 
+                                                             (0xfU 
+                                                              & ((IData)(7U) 
+                                                                 + 
+                                                                 VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)))))))
+                                                     ? 1U
+                                                     : 0xffU))))))))
+            : ((8U == vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__adder_count)
+                ? ((((0x383U >= (0x3ffU & ((IData)(2U) 
+                                           + (VL_MULS_III(32, (IData)(0x1eU), 
+                                                          ((IData)(2U) 
+                                                           + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row)) 
+                                              + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col)))) 
+                     && (1U & (__Vtemp_149[(0x1fU & 
+                                            (((IData)(2U) 
+                                              + (VL_MULS_III(32, (IData)(0x1eU), 
+                                                             ((IData)(2U) 
+                                                              + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row)) 
+                                                 + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col)) 
+                                             >> 5U))] 
+                               >> (0x1fU & ((IData)(2U) 
+                                            + (VL_MULS_III(32, (IData)(0x1eU), 
+                                                           ((IData)(2U) 
+                                                            + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__row)) 
+                                               + vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__col)))))) 
+                    == ((8U >= (0xfU & ((IData)(8U) 
+                                        + VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)))) 
+                        && (1U & ((IData)(vlSelf->dut__DOT__conv_pool1__DOT__core_weight) 
+                                  >> (0xfU & ((IData)(8U) 
+                                              + VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool1__DOT__core__DOT__cur_ic)))))))
+                    ? 1U : 0xffU) : 0U));
+    vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__patch_val 
+        = (((((((((0U == vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__adder_count) 
+                  | (1U == vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__adder_count)) 
+                 | (2U == vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__adder_count)) 
+                | (3U == vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__adder_count)) 
+               | (4U == vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__adder_count)) 
+              | (5U == vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__adder_count)) 
+             | (6U == vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__adder_count)) 
+            | (7U == vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__adder_count))
+            ? ((0U == vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__adder_count)
+                ? ((((0xc3U >= (0xffU & (VL_MULS_III(32, (IData)(0xeU), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row) 
+                                         + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col))) 
+                     && (1U & (vlSelf->dut__DOT__pool1_img_out
+                               [(0xfU & vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)][
+                               (7U & ((VL_MULS_III(32, (IData)(0xeU), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row) 
+                                       + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col) 
+                                      >> 5U))] >> (0x1fU 
+                                                   & (VL_MULS_III(32, (IData)(0xeU), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row) 
+                                                      + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col))))) 
+                    == ((0x8fU >= (0xffU & VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic))) 
+                        && (1U & (vlSelf->dut__DOT__conv_pool2__DOT__core_weight[
+                                  (7U & (VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic) 
+                                         >> 5U))] >> 
+                                  (0x1fU & VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic))))))
+                    ? 1U : 0xffU) : ((1U == vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__adder_count)
+                                      ? ((((0xc3U >= 
+                                            (0xffU 
+                                             & ((IData)(1U) 
+                                                + (
+                                                   VL_MULS_III(32, (IData)(0xeU), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row) 
+                                                   + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col)))) 
+                                           && (1U & 
+                                               (vlSelf->dut__DOT__pool1_img_out
+                                                [(0xfU 
+                                                  & vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)][
+                                                (7U 
+                                                 & (((IData)(1U) 
+                                                     + 
+                                                     (VL_MULS_III(32, (IData)(0xeU), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row) 
+                                                      + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col)) 
+                                                    >> 5U))] 
+                                                >> 
+                                                (0x1fU 
+                                                 & ((IData)(1U) 
+                                                    + 
+                                                    (VL_MULS_III(32, (IData)(0xeU), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row) 
+                                                     + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col)))))) 
+                                          == ((0x8fU 
+                                               >= (0xffU 
+                                                   & ((IData)(1U) 
+                                                      + 
+                                                      VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)))) 
+                                              && (1U 
+                                                  & (vlSelf->dut__DOT__conv_pool2__DOT__core_weight[
+                                                     (7U 
+                                                      & (((IData)(1U) 
+                                                          + 
+                                                          VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)) 
+                                                         >> 5U))] 
+                                                     >> 
+                                                     (0x1fU 
+                                                      & ((IData)(1U) 
+                                                         + 
+                                                         VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)))))))
+                                          ? 1U : 0xffU)
+                                      : ((2U == vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__adder_count)
+                                          ? ((((0xc3U 
+                                                >= 
+                                                (0xffU 
+                                                 & ((IData)(2U) 
+                                                    + 
+                                                    (VL_MULS_III(32, (IData)(0xeU), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row) 
+                                                     + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col)))) 
+                                               && (1U 
+                                                   & (vlSelf->dut__DOT__pool1_img_out
+                                                      [
+                                                      (0xfU 
+                                                       & vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)][
+                                                      (7U 
+                                                       & (((IData)(2U) 
+                                                           + 
+                                                           (VL_MULS_III(32, (IData)(0xeU), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row) 
+                                                            + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col)) 
+                                                          >> 5U))] 
+                                                      >> 
+                                                      (0x1fU 
+                                                       & ((IData)(2U) 
+                                                          + 
+                                                          (VL_MULS_III(32, (IData)(0xeU), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row) 
+                                                           + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col)))))) 
+                                              == ((0x8fU 
+                                                   >= 
+                                                   (0xffU 
+                                                    & ((IData)(2U) 
+                                                       + 
+                                                       VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)))) 
+                                                  && (1U 
+                                                      & (vlSelf->dut__DOT__conv_pool2__DOT__core_weight[
+                                                         (7U 
+                                                          & (((IData)(2U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)) 
+                                                             >> 5U))] 
+                                                         >> 
+                                                         (0x1fU 
+                                                          & ((IData)(2U) 
+                                                             + 
+                                                             VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)))))))
+                                              ? 1U : 0xffU)
+                                          : ((3U == vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__adder_count)
+                                              ? (((
+                                                   (0xc3U 
+                                                    >= 
+                                                    (0xffU 
+                                                     & (VL_MULS_III(32, (IData)(0xeU), 
+                                                                    ((IData)(1U) 
+                                                                     + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row)) 
+                                                        + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col))) 
+                                                   && (1U 
+                                                       & (vlSelf->dut__DOT__pool1_img_out
+                                                          [
+                                                          (0xfU 
+                                                           & vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)][
+                                                          (7U 
+                                                           & ((VL_MULS_III(32, (IData)(0xeU), 
+                                                                           ((IData)(1U) 
+                                                                            + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row)) 
+                                                               + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col) 
+                                                              >> 5U))] 
+                                                          >> 
+                                                          (0x1fU 
+                                                           & (VL_MULS_III(32, (IData)(0xeU), 
+                                                                          ((IData)(1U) 
+                                                                           + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row)) 
+                                                              + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col))))) 
+                                                  == 
+                                                  ((0x8fU 
+                                                    >= 
+                                                    (0xffU 
+                                                     & ((IData)(3U) 
+                                                        + 
+                                                        VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)))) 
+                                                   && (1U 
+                                                       & (vlSelf->dut__DOT__conv_pool2__DOT__core_weight[
+                                                          (7U 
+                                                           & (((IData)(3U) 
+                                                               + 
+                                                               VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)) 
+                                                              >> 5U))] 
+                                                          >> 
+                                                          (0x1fU 
+                                                           & ((IData)(3U) 
+                                                              + 
+                                                              VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)))))))
+                                                  ? 1U
+                                                  : 0xffU)
+                                              : ((4U 
+                                                  == vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__adder_count)
+                                                  ? 
+                                                 ((((0xc3U 
+                                                     >= 
+                                                     (0xffU 
+                                                      & ((IData)(1U) 
+                                                         + 
+                                                         (VL_MULS_III(32, (IData)(0xeU), 
+                                                                      ((IData)(1U) 
+                                                                       + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row)) 
+                                                          + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col)))) 
+                                                    && (1U 
+                                                        & (vlSelf->dut__DOT__pool1_img_out
+                                                           [
+                                                           (0xfU 
+                                                            & vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)][
+                                                           (7U 
+                                                            & (((IData)(1U) 
+                                                                + 
+                                                                (VL_MULS_III(32, (IData)(0xeU), 
+                                                                             ((IData)(1U) 
+                                                                              + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row)) 
+                                                                 + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col)) 
+                                                               >> 5U))] 
+                                                           >> 
+                                                           (0x1fU 
+                                                            & ((IData)(1U) 
+                                                               + 
+                                                               (VL_MULS_III(32, (IData)(0xeU), 
+                                                                            ((IData)(1U) 
+                                                                             + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row)) 
+                                                                + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col)))))) 
+                                                   == 
+                                                   ((0x8fU 
+                                                     >= 
+                                                     (0xffU 
+                                                      & ((IData)(4U) 
+                                                         + 
+                                                         VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)))) 
+                                                    && (1U 
+                                                        & (vlSelf->dut__DOT__conv_pool2__DOT__core_weight[
+                                                           (7U 
+                                                            & (((IData)(4U) 
+                                                                + 
+                                                                VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)) 
+                                                               >> 5U))] 
+                                                           >> 
+                                                           (0x1fU 
+                                                            & ((IData)(4U) 
+                                                               + 
+                                                               VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)))))))
+                                                   ? 1U
+                                                   : 0xffU)
+                                                  : 
+                                                 ((5U 
+                                                   == vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__adder_count)
+                                                   ? 
+                                                  ((((0xc3U 
+                                                      >= 
+                                                      (0xffU 
+                                                       & ((IData)(2U) 
+                                                          + 
+                                                          (VL_MULS_III(32, (IData)(0xeU), 
+                                                                       ((IData)(1U) 
+                                                                        + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row)) 
+                                                           + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col)))) 
+                                                     && (1U 
+                                                         & (vlSelf->dut__DOT__pool1_img_out
+                                                            [
+                                                            (0xfU 
+                                                             & vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)][
+                                                            (7U 
+                                                             & (((IData)(2U) 
+                                                                 + 
+                                                                 (VL_MULS_III(32, (IData)(0xeU), 
+                                                                              ((IData)(1U) 
+                                                                               + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row)) 
+                                                                  + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col)) 
+                                                                >> 5U))] 
+                                                            >> 
+                                                            (0x1fU 
+                                                             & ((IData)(2U) 
+                                                                + 
+                                                                (VL_MULS_III(32, (IData)(0xeU), 
+                                                                             ((IData)(1U) 
+                                                                              + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row)) 
+                                                                 + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col)))))) 
+                                                    == 
+                                                    ((0x8fU 
+                                                      >= 
+                                                      (0xffU 
+                                                       & ((IData)(5U) 
+                                                          + 
+                                                          VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)))) 
+                                                     && (1U 
+                                                         & (vlSelf->dut__DOT__conv_pool2__DOT__core_weight[
+                                                            (7U 
+                                                             & (((IData)(5U) 
+                                                                 + 
+                                                                 VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)) 
+                                                                >> 5U))] 
+                                                            >> 
+                                                            (0x1fU 
+                                                             & ((IData)(5U) 
+                                                                + 
+                                                                VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)))))))
+                                                    ? 1U
+                                                    : 0xffU)
+                                                   : 
+                                                  ((6U 
+                                                    == vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__adder_count)
+                                                    ? 
+                                                   ((((0xc3U 
+                                                       >= 
+                                                       (0xffU 
+                                                        & (VL_MULS_III(32, (IData)(0xeU), 
+                                                                       ((IData)(2U) 
+                                                                        + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row)) 
+                                                           + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col))) 
+                                                      && (1U 
+                                                          & (vlSelf->dut__DOT__pool1_img_out
+                                                             [
+                                                             (0xfU 
+                                                              & vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)][
+                                                             (7U 
+                                                              & ((VL_MULS_III(32, (IData)(0xeU), 
+                                                                              ((IData)(2U) 
+                                                                               + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row)) 
+                                                                  + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col) 
+                                                                 >> 5U))] 
+                                                             >> 
+                                                             (0x1fU 
+                                                              & (VL_MULS_III(32, (IData)(0xeU), 
+                                                                             ((IData)(2U) 
+                                                                              + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row)) 
+                                                                 + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col))))) 
+                                                     == 
+                                                     ((0x8fU 
+                                                       >= 
+                                                       (0xffU 
+                                                        & ((IData)(6U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)))) 
+                                                      && (1U 
+                                                          & (vlSelf->dut__DOT__conv_pool2__DOT__core_weight[
+                                                             (7U 
+                                                              & (((IData)(6U) 
+                                                                  + 
+                                                                  VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)) 
+                                                                 >> 5U))] 
+                                                             >> 
+                                                             (0x1fU 
+                                                              & ((IData)(6U) 
+                                                                 + 
+                                                                 VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)))))))
+                                                     ? 1U
+                                                     : 0xffU)
+                                                    : 
+                                                   ((((0xc3U 
+                                                       >= 
+                                                       (0xffU 
+                                                        & ((IData)(1U) 
+                                                           + 
+                                                           (VL_MULS_III(32, (IData)(0xeU), 
+                                                                        ((IData)(2U) 
+                                                                         + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row)) 
+                                                            + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col)))) 
+                                                      && (1U 
+                                                          & (vlSelf->dut__DOT__pool1_img_out
+                                                             [
+                                                             (0xfU 
+                                                              & vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)][
+                                                             (7U 
+                                                              & (((IData)(1U) 
+                                                                  + 
+                                                                  (VL_MULS_III(32, (IData)(0xeU), 
+                                                                               ((IData)(2U) 
+                                                                                + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row)) 
+                                                                   + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col)) 
+                                                                 >> 5U))] 
+                                                             >> 
+                                                             (0x1fU 
+                                                              & ((IData)(1U) 
+                                                                 + 
+                                                                 (VL_MULS_III(32, (IData)(0xeU), 
+                                                                              ((IData)(2U) 
+                                                                               + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row)) 
+                                                                  + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col)))))) 
+                                                     == 
+                                                     ((0x8fU 
+                                                       >= 
+                                                       (0xffU 
+                                                        & ((IData)(7U) 
+                                                           + 
+                                                           VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)))) 
+                                                      && (1U 
+                                                          & (vlSelf->dut__DOT__conv_pool2__DOT__core_weight[
+                                                             (7U 
+                                                              & (((IData)(7U) 
+                                                                  + 
+                                                                  VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)) 
+                                                                 >> 5U))] 
+                                                             >> 
+                                                             (0x1fU 
+                                                              & ((IData)(7U) 
+                                                                 + 
+                                                                 VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)))))))
+                                                     ? 1U
+                                                     : 0xffU))))))))
+            : ((8U == vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__adder_count)
+                ? ((((0xc3U >= (0xffU & ((IData)(2U) 
+                                         + (VL_MULS_III(32, (IData)(0xeU), 
+                                                        ((IData)(2U) 
+                                                         + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row)) 
+                                            + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col)))) 
+                     && (1U & (vlSelf->dut__DOT__pool1_img_out
+                               [(0xfU & vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)][
+                               (7U & (((IData)(2U) 
+                                       + (VL_MULS_III(32, (IData)(0xeU), 
+                                                      ((IData)(2U) 
+                                                       + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row)) 
+                                          + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col)) 
+                                      >> 5U))] >> (0x1fU 
+                                                   & ((IData)(2U) 
+                                                      + 
+                                                      (VL_MULS_III(32, (IData)(0xeU), 
+                                                                   ((IData)(2U) 
+                                                                    + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__row)) 
+                                                       + vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__col)))))) 
+                    == ((0x8fU >= (0xffU & ((IData)(8U) 
+                                            + VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)))) 
+                        && (1U & (vlSelf->dut__DOT__conv_pool2__DOT__core_weight[
+                                  (7U & (((IData)(8U) 
+                                          + VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)) 
+                                         >> 5U))] >> 
+                                  (0x1fU & ((IData)(8U) 
+                                            + VL_MULS_III(32, (IData)(9U), vlSelf->dut__DOT__conv_pool2__DOT__core__DOT__cur_ic)))))))
+                    ? 1U : 0xffU) : 0U));
 }
