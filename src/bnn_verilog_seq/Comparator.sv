@@ -20,22 +20,22 @@ module Comparator#(
 
     always_ff @(posedge clk) begin
         if (!data_in_ready) begin
-            max = in[0];
-            max_ind = 0;
-            cur_ic = 0;
-            data_out_ready = 0;
-            out = 0;
+            max <= in[0];
+            max_ind <= 0;
+            cur_ic <= 0;
+            data_out_ready <= 0;
+            out <= 0;
         end
         else if (data_out_ready) begin end
         else begin
             if (max < in[cur_ic]) begin
-                max = in[cur_ic];
-                max_ind = cur_ic;
+                max <= in[cur_ic];
+                max_ind <= cur_ic[OUTPUT_BIT-1:0];
             end
-            cur_ic = cur_ic + 1;
+            cur_ic <= cur_ic + 1;
             if (cur_ic == IC) begin
-                data_out_ready = 1;
-                out = max_ind;
+                data_out_ready <= 1;
+                out <= max_ind;
             end
         end
     end

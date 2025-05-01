@@ -11,6 +11,8 @@ Vdut::Vdut(VerilatedContext* _vcontextp__, const char* _vcname__)
     : VerilatedModel{*_vcontextp__}
     , vlSymsp{new Vdut__Syms(contextp(), _vcname__, this)}
     , clk{vlSymsp->TOP.clk}
+    , data_in_ready{vlSymsp->TOP.data_in_ready}
+    , data_out_ready{vlSymsp->TOP.data_out_ready}
     , rootp{&(vlSymsp->TOP)}
 {
     // Register model with the context

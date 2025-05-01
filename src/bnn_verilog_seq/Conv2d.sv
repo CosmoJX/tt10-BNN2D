@@ -15,23 +15,24 @@ module Conv2d #(
 );
     logic [IC*9-1:0] core_weight;
     logic [IMG_OUT_SIZE*IMG_OUT_SIZE-1:0] core_img_out;
-    logic [$clog2(OC+1)-1:0] cur_oc;
+    integer cur_oc;
 
     always_ff @( posedge clk ) begin : ConvBlock
         if (!data_in_ready) begin
-            cur_oc = 0;
-            data_out_ready = 0;
+            cur_oc <= 0;
+            data_out_ready <= 0;
+            core_weight <= weights[0];
             for (int i=0; i<OC; i=i+1) begin
-                img_out[i] = 0;
+                img_out[i] <= 0;
             end
         end
         else if (data_out_ready) begin end
         else begin
-            core_weight = weights[cur_oc];
-            img_out[cur_oc] = core_img_out;
-            cur_oc = cur_oc + 1;
-            if (cur_oc == OC) begin
-                data_out_ready = 1;
+            core_weight <= weights[cur_oc+1];
+            img_out[cur_oc] <= core_img_out;
+            cur_oc <= cur_oc + 1;
+            if (cur_oc == OC-1) begin
+                data_out_ready <= 1;
             end
         end
     end

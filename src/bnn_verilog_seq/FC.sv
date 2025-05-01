@@ -18,31 +18,33 @@ module FC#(
     output logic data_out_ready
 );
 
-    logic [$clog2(IC+1)-1:0] cur_ic;
-    logic [$clog2(OC+1)-1:0] cur_oc;
+    integer cur_ic;
+    integer cur_oc;
     logic signed [15:0] temp_out;
 
     always_ff @(posedge clk) begin
         if (!data_in_ready) begin
-            cur_oc = 0;
-            cur_ic = 0;
-            temp_out = 0;
-            data_out_ready = 0;
+            cur_oc <= 0;
+            cur_ic <= 0;
+            temp_out <= 0;
+            data_out_ready <= 0;
             for (int i=0; i<OC; i=i+1) begin
-                out[i] = 0;
+                out[i] <= 0;
             end
         end
         else if (data_out_ready) begin end
         else begin
-            temp_out = temp_out + ((in[cur_ic])?weights[cur_oc*IC+cur_ic]:-weights[cur_oc*IC+cur_ic]);
-            cur_ic = cur_ic + 1;
             if (cur_ic == IC) begin
-                cur_ic = 0;
-                cur_oc = cur_oc + 1;
-                out[cur_oc] = temp_out;
+                cur_ic <= 0;
+                cur_oc <= cur_oc + 1;
+                out[cur_oc] <= temp_out;
+                temp_out <= 0;
+            end else begin
+                cur_ic <= cur_ic + 1;
+                temp_out <= temp_out + ((in[cur_ic])?weights[cur_oc*IC+cur_ic]:-weights[cur_oc*IC+cur_ic]);
             end
             if (cur_oc == OC) begin
-                data_out_ready = 1;
+                data_out_ready <= 1;
             end
         end
     end
